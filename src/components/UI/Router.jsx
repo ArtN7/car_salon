@@ -7,8 +7,8 @@ const Router = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/carsalon' element={<Main />} />
-                <Route path='/carsalon/car/:id' element={<CarDetail/>} />
+                <Route path='car_salon_3kurs/' element={<Main />} />
+                <Route path='car_salon_3kurs/car/:id' element={<CarDetail/>} />
                 <Route path='*' element={<PageNotFound/>} />
             </Routes>
         </BrowserRouter>
