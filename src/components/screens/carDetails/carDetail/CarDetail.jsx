@@ -13,7 +13,7 @@ const CarDetail = () => {
                     <div className={styles.image} alt={cars[i].name} style={{
                         backgroundImage:`url(${cars[i].url})`,
                         }}>
-                        <button onClick={()=> nav('/')} className='btn btnBack'>Back</button>
+                        <button onClick={()=> nav('/car_salon_3kurs')} className='btn btnBack'>Back</button>
                     </div>
                     <div className={styles.miniInfo}>
                         <h2>{cars[i].name}</h2>    

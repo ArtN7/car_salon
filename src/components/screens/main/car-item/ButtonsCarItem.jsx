@@ -7,7 +7,7 @@ const ButtonsCarItem = ({carId}) => {
     return (
         <div className={styles.buttons}>
             <button onClick={() => {}}>Купить</button>
-            <button onClick={() => nav(`/car/${carId}`)}>Подробнее</button>
+            <button onClick={() => nav(`/car_salon_3kurs/car/${carId}`)}>Подробнее</button>
         </div>
     )
 }
