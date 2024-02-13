@@ -1,38 +1,47 @@
-/* <div className = {styles.container}>
-<h2 className={styles.name}>{car.name}</h2>
-<img src={car.url} alt = {car.alt} className={styles.image}/>
-<p className={styles.description}>{car.description}</p>
-<div>
-    <p className={styles.year}>{car.year}</p>
-    <p className={styles.mileage}>{mileage}</p>
-    <p className={styles.hp}>{hp}</p>
-</div>
-<p className={styles.price}>{price}</p>
-<button className={styles.btnBuy}>buy</button>
-<button className={styles.btnMoreInfo}>more info</button>
-</div> */
 .container {
     border: 1px solid red;
-    max-width: 30vw;
+    max-width: 500px;
     height: auto;
-    margin: 10px;
-    height: 550px;
+    margin: 10px 40px;
+    height: 600px;
+    text-align: center;
+    font-size: 18px;
 }
 .name {
-    font-size: 16px;
+    font-size: 22px;
     width: 100%;
     text-align: center;
-    margin: 5px auto;
-    border: 1px solid black;
+    margin: 0;
+    border-bottom: 1px solid black;
 }
 .image {
-    min-width: 300px;
-    max-width: inherit;
+    width: 100%;
 }
 .description {
-    border: 1px solid black;
     width: 100%;
-    text-align: center;
-    max-height: 80px;
-    margin: 10px 0;
+    min-height: 70px;
+    height: min-content;
+    margin: 10px 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.description span {
+    width: inherit;
+}
+.listOfСharacteristics {
+    height: 70px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.price {
+    margin: 10px 0 20px 0 ;
 }

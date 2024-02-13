@@ -4,7 +4,7 @@ const cars = [
       "name": "A",
       "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
       "alt": "Radiation resistance",
-      "description": "description description description description description description description",
+      "description": "description description description description description description description description description description",
       "year": 2016,
       "mileage": 120000,
       "hp": 670,
