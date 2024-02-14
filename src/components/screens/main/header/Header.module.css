@@ -1,0 +1,35 @@
+.container {
+    min-height: 30px;
+}
+.list {
+    border: 1px solid gold;
+    list-style-type: none;
+    height: 30px;
+    margin: 0;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.itemButton {
+    background-color: inherit;
+    border: none;
+    font-size: 16px;
+}
+.itemButton:hover {
+    cursor: pointer;
+    color: red;
+}
+.orderAndPhone {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone {
+    text-decoration: none;
+}
+.phone:hover {
+    color: red;
+}

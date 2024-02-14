@@ -1,9 +1,11 @@
 import CarsCatalog from "./carsCatalog/CarsCatalog";
-
+import Header from "./header/Header";
+import styles from './Main.module.css'
 const Main = () => {
     return(
-        <div>
-            <h1>Автосалон</h1>
+        <div className={styles.mainContainer}>
+            <h1 className={styles.name}>Автосалон "Краснодар-авто"</h1>
+            <Header/>
             <CarsCatalog/>
         </div>
     )

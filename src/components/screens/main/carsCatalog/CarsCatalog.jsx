@@ -6,7 +6,7 @@ import styles from '../carsCatalog/CarsCatalog.module.css'
 const CarsCatalog = () => {
     const [allCars, setAllCars] = useState(cars);
     return (
-        <div>
+        <div className={styles.containerCatalog}>
             <Sorts allCars={allCars} setAllCars={setAllCars}/>
             <ul className={styles.catalogs}>
                 {allCars.map((car) => {

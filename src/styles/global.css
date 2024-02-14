@@ -1,0 +1,15 @@
+*{
+    color: rgb(250, 60, 60);
+}
+.btn {
+    font-size: 16px;
+    background-color:white;
+    border: 1px solid black;
+    border-radius: 2px;
+    min-width: 120px;
+    min-height: 30px;
+}
+.btn:hover {
+    background-color: aquamarine;
+    transition: 0.25s;
+}
