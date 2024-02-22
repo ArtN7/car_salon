@@ -1,0 +1,24 @@
+.inputContainer {
+    
+}
+.inputPrice {
+    width: 120px;
+    padding-left: 25px;
+}
+.minValue {
+    position: absolute;
+    left: 5px;
+}
+/* .containerMaxValue {
+    position: absolute;
+    width: 145px;
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: space-between;
+} */
+.maxValue {
+    margin-left: 5px;
+}
+.signMaxValue {
+    margin-right: 10px;
+}

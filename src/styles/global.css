@@ -13,3 +13,13 @@
     background-color: aquamarine;
     transition: 0.25s;
 }
+/*Firefox remove arrows*/
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/*Chrome, Safari remove arrows*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

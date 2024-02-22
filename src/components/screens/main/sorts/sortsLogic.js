@@ -10,8 +10,8 @@ const sortSelect = (cars) => {
         case "sortByPriceDown":
             cars.sort((car1, car2) => car2.price - car1.price);
             break;
-        case "sortByNameUP":
-            cars.sort((car1, car2) => car2.name > car1.name ? -1 : 1); //don't work
+        case "sortByNameUp":
+            cars.sort((car1, car2) => car2.name > car1.name ? -1 : 1);
             break;
         case "sortByNameDown":
             cars.sort((car1, car2) => car1.name > car2.name ? -1 : 1);
