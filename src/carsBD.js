@@ -43,5 +43,5 @@ const cars = [
       "hp": 1020,
       "price": 1000000
     },
-  ]
+]
 export default cars;

@@ -1,3 +1,4 @@
+import CarPromotion from "./carPromotion/CarPromotion";
 import CarsCatalog from "./carsCatalog/CarsCatalog";
 import Header from "./header/Header";
 import styles from './Main.module.css'
@@ -7,6 +8,7 @@ const Main = () => {
             <h1 className={styles.name}>Автосалон "Краснодар-авто"</h1>
             <Header/>
             <CarsCatalog/>
+            <CarPromotion/>
         </div>
     )
 }   

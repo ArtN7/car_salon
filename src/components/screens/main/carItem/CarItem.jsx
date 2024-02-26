@@ -1,4 +1,4 @@
-import styles from '../car-item/CarItem.module.css'
+import styles from '../carItem/CarItem.module.css'
 import ButtonsCarItem from './ButtonsCarItem';
 
 const CarItem = ({car}) => {
