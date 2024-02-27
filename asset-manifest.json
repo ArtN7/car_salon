@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/car_salon_3kurs/static/css/main.7a8e162c.css",
-    "main.js": "/car_salon_3kurs/static/js/main.b47d49e2.js",
+    "main.css": "/car_salon_3kurs/static/css/main.785dccd7.css",
+    "main.js": "/car_salon_3kurs/static/js/main.7f1682ac.js",
     "index.html": "/car_salon_3kurs/index.html",
-    "main.7a8e162c.css.map": "/car_salon_3kurs/static/css/main.7a8e162c.css.map",
-    "main.b47d49e2.js.map": "/car_salon_3kurs/static/js/main.b47d49e2.js.map"
+    "main.785dccd7.css.map": "/car_salon_3kurs/static/css/main.785dccd7.css.map",
+    "main.7f1682ac.js.map": "/car_salon_3kurs/static/js/main.7f1682ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a8e162c.css",
-    "static/js/main.b47d49e2.js"
+    "static/css/main.785dccd7.css",
+    "static/js/main.7f1682ac.js"
   ]
 }
