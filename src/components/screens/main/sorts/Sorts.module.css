@@ -1,6 +1,6 @@
 .containerSort {
     height: 50px;
-    border: 1px solid yellow; 
+    border-bottom: 1px solid red; 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -10,10 +10,9 @@
     font-size: 20px;
 }
 .select {
-    max-width: 85%;
-    background-color: inherit;
+    max-width: 130px;
     border: none;
     font-size: 15px;
     text-align: center;
-    padding-bottom: 2px;
+    margin-bottom: 5px;
 }

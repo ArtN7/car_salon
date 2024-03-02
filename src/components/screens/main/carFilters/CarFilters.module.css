@@ -1,9 +1,7 @@
 .container {
-    border: 1px solid yellow;
-    padding-top: 10px;
-    border-top: none;
+    padding: 10px;
     min-height: 400px;
-    width: inherit;
+    width: 160px;
 }
 .label {
     font-size: 20px;
@@ -12,12 +10,19 @@
     min-height: 380px;
     position: relative;
 }
+.listOfFilter{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 .buttonFilter, .buttonReset{
+    font-size: 16px;
     position: absolute;
     bottom: 0;
     width: 100%;
     right: 0;
 }
 .buttonReset {
+    margin-bottom: 5px;
     bottom: 30px;
 }

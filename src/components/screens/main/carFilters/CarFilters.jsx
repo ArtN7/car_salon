@@ -51,7 +51,7 @@ const FILTER_ATTRIBUTES = [
         'inputName': 'По силам:',
         'minValue': getValue(cars, 'hp', 'min'),
         'maxValue': getValue(cars, 'hp', 'max'),
-    }
+    },
 ]
 
 const clickButton = (cars, MIN_MAX_VALUES) => {
@@ -108,7 +108,7 @@ const CarFilters = ({allCars, setAllCars}) => {
         <div className={styles.container}>
             <label htmlFor="filter" className={styles.label}>Фильтровать:</label>
             <form id='filter' className={styles.form}>
-                <ul>
+                <ul className={styles.listOfFilter}>
                     {FILTER_ATTRIBUTES.map(({id, inputName, minValue, maxValue})=> {
                         return <li key={id}><CarFilterInputs nameInput={inputName} minValue={minValue}
                         maxValue={maxValue} setMinValue={MIN_MAX_FUNC[id - 1][0]} setMaxValue={MIN_MAX_FUNC[id - 1][1]}/></li>

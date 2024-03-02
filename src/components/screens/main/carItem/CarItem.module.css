@@ -1,18 +1,20 @@
 .container {
     border: 1px solid red;
+    border-radius: 3%;
     max-width: 500px;
     height: auto;
     margin: 0 40px 20px;
     height: 600px;
     text-align: center;
     font-size: 18px;
+    background-color: white;
 }
 .name {
     font-size: 22px;
     width: 100%;
     text-align: center;
     margin: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 0, 0);
 }
 .image {
     width: 100%;
@@ -25,8 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    border-top: 1px solid rgb(255, 0, 0);
 }
 .description span {
     width: inherit;
@@ -40,7 +42,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(255, 0, 0);
 }
 .price {
     margin: 10px 0 20px 0 ;

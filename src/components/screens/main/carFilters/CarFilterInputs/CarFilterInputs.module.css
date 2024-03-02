@@ -1,14 +1,19 @@
+.inputsContainer {
+    position: relative;
+}
+.nameInput {
+    font-size: 17px;
+}
 .input {
     width: 120px;
     padding-left: 25px;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
-
-.minValue {
+.minValue, .maxValue {
     position: absolute;
-    left: 5px;
+    left: 12px;
 }
 .maxValue {
-    position: absolute;
-    left: 5px;
+    top: 27px;
 }

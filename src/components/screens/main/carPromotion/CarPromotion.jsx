@@ -1,4 +1,3 @@
-import { number, object, string } from 'yup'
 import styles from './CarPromotion.module.css'
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
@@ -12,9 +11,8 @@ const CarPromotion = () => {
         }
     });
     const [isFormValid, setIsFormValid] = useState(false);
-    const onSubmit = (data) =>  {
+    const onSubmit = () =>  {
         setIsFormValid(true);
-        console.log(data)
     }
     return (
         <div className={styles.container}>
@@ -40,7 +38,7 @@ const CarPromotion = () => {
                     <p>{errors.email?.message}</p>
                 </label>
                 <button type='submit' className='btn'>Отправить</button>
-                {isFormValid ? <p>Отправлено</p>: ''}
+                {isFormValid ? <p className={styles.confirmForm}>Отправлено</p>: ''}
             </form>
         </div>
     )

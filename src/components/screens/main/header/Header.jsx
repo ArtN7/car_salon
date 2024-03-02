@@ -7,7 +7,10 @@ const Header = () => {
     return (
         <div className={styles.container}>
             <ul className={styles.list}>
-                <li>Logo</li>
+                <li className={styles.logo}>
+                    <span>Краснодар</span> 
+                    <span>Авто</span>
+                </li>
                 <li><button className={styles.itemButton} onClick={() => nav('car_salon_3kurs/aboutcompany')}>О компании</button></li>
                 <li><button className={styles.itemButton} onClick={() => nav('car_salon_3kurs/reviews')}>Отзывы</button></li>
                 <li><button className={styles.itemButton} onClick={() => nav('car_salon_3kurs/contacts')}>Контакты</button></li>

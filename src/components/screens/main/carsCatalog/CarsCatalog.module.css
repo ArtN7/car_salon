@@ -1,16 +1,24 @@
 .container {
     margin: 20px 0 0;
-    border: 1px solid red;
+    padding-top: 20px;
+    background-color: rgb(234, 233, 233);
     display: grid;
     grid-template-columns: 150px 11fr;
 }
 .containerSortsFilters {
     display: flex;
     flex-direction: column;
-    max-width: 180px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: min-content;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 10px;
 }
 .catalogs {
     margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     list-style-type: none;
     display: flex;
