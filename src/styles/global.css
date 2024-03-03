@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(234, 233, 233);
+
+}
 .link, .btn {
     font-size: 18px;
     background-color:white;

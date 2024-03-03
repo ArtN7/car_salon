@@ -1,6 +1,7 @@
 import styles from './AboutCompany.module.css'
 
 const AboutCompany = () => {
+    const classLink = `link ${styles.classLink}`;
     return (
         <div className={styles.container}>
             <h2>О компании</h2>
@@ -8,7 +9,7 @@ const AboutCompany = () => {
                 <p>Мы возглавляем топ-3 автосалонов по количеству продаж. Наша компания продает автомобили более 20 лет на рынке. 
                     text text text
                 </p>
-                <a className='link' href={`/car_salon_3kurs/aboutcompany`}>Больше информации</a>
+                <a className={classLink} href={`/car_salon_3kurs/aboutcompany`}>Больше информации</a>
             </div>
             <div className={styles.trust}>
                 <h3>Почему нам доверяют?</h3>

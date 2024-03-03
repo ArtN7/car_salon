@@ -1,27 +1,38 @@
 .container {
+    font-size: 18px;
+    color: white;
     border: 1px solid red;
-    height: 300px;
+    height: 600px;
     margin-top: 0;
     margin-bottom: 20px;
     position: relative;
+    background-image: url('../../../UI/images/ferrari_812_competizione.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container h2 {
     margin-top: 10px;
 }
 .infoCompany {
+    padding: 0 10px;
     border: 1px solid red;
-    width: 400px;
+    border-radius: 10px;
+    width: 380px;
     height:150px;
     position: absolute;
-    top: 40px;
-    right: 20px;
+    top: 50px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
 .trust {
     border: 1px solid red;
-    width: 700px;
+    width: 720px;
     position: absolute;
-    bottom: 40px;
-    left: 60px;
+    top: 100px;
+    right: 40px;
     border-radius: 10px;
 }
 .facts {
@@ -40,4 +51,7 @@
 }
 .fact:not(:last-child) {
     border-right: 1px solid red;
+}
+.classLink {
+    width: 180px;
 }
