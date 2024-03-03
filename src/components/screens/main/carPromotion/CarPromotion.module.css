@@ -9,16 +9,22 @@
     background: url('../../../UI/images/promo-wheel.jpeg') center repeat ;/*I will change the URL*/
     background-position: 0% 50%;
     background-size: 10%;
+    position: relative;
 }
 .promoContainer {
-    margin-top: 10px;   
+    position: absolute;
+    top: 10px;   
+    left: 150px;
     font-size: 20px;
 }
 .personalData {
     position: absolute;
-    bottom: 10px;
+    bottom: 40px;
 }
 .form{
+    position: absolute;
+    top: 30px;
+    right: 40px;
     color: black;
     width: 240px;
     min-height: 250px;

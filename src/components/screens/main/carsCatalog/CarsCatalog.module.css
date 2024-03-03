@@ -1,7 +1,6 @@
 .container {
     margin: 20px 0 0;
     padding-top: 20px;
-    background-color: rgb(234, 233, 233);
     display: grid;
     grid-template-columns: 150px 11fr;
 }
