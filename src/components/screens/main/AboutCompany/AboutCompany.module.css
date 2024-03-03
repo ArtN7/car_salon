@@ -1,4 +1,43 @@
 .container {
+    border: 1px solid red;
+    height: 300px;
     margin-top: 0;
     margin-bottom: 20px;
+    position: relative;
+}
+.container h2 {
+    margin-top: 10px;
+}
+.infoCompany {
+    border: 1px solid red;
+    width: 400px;
+    height:150px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.trust {
+    border: 1px solid red;
+    width: 700px;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    border-radius: 10px;
+}
+.facts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-height: 70px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.fact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid red;
+}
+.fact:not(:last-child) {
+    border-right: 1px solid red;
 }
