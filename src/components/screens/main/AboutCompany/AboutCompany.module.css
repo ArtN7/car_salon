@@ -56,6 +56,6 @@
 .fact:not(:last-child) {
     border-right: 1px solid red;
 }
-.classLink {
-    width: 180px;
+a.classLink {
+    width: 200px;
 }
