@@ -1,10 +1,9 @@
 .container {
     font-size: 18px;
     color: white;
-    border: 1px solid red;
     height: 600px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     position: relative;
     background-image: url('../../../UI/images/ferrari_812_competizione.jpg');
     background-size: cover;
