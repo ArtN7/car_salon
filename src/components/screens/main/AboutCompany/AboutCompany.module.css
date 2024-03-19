@@ -25,7 +25,7 @@
     height:150px;
     position: absolute;
     top: 50px;
-    left: 20px;
+    left: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -34,7 +34,7 @@
 .trust {
     color: black;
     background-color: white;
-    height: 120px;
+    height: 100px;
     width: 720px;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
     border-radius: 10px;
 }
 .trust h3 {
-    margin-top: 10px;
+    margin: auto 0;
 }
 .facts {
     list-style-type: none;
