@@ -3,6 +3,7 @@ import CarPromotion from "./carPromotion/CarPromotion";
 import CarsCatalog from "./carsCatalog/CarsCatalog";
 import Contacts from "./Contacts/Contacts";
 import Feedbacks from "./Feedbacks/Feedbacks";
+import Footer from "./Footer/Footer";
 import Header from "./header/Header";
 import styles from './Main.module.css'
 const Main = () => {
@@ -14,6 +15,7 @@ const Main = () => {
             <Feedbacks/>
             <AboutCompany/>
             <Contacts/>
+            <Footer/>
         </div>
     )
 }   

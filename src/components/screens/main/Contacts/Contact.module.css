@@ -9,7 +9,6 @@
     background-position: 50%;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
 }
 .map {
     overflow:hidden;

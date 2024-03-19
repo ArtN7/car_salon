@@ -5,15 +5,15 @@ import { useNavigate } from 'react-router-dom'
 const Header = () => {
     const nav = useNavigate()
     return (
-        <div className={styles.container}>
+        <div id='head' className={styles.container}>
             <ul className={styles.list}>
                 <li className={styles.logo}>
                     <span>Краснодар</span> 
                     <span>Авто</span>
                 </li>
-                <li><button className={styles.itemButton} onClick={() => nav('car_salon_3kurs/aboutcompany')}>О компании</button></li>
-                <li><button className={styles.itemButton} onClick={() => nav('car_salon_3kurs/reviews')}>Отзывы</button></li>
-                <li><button className={styles.itemButton} onClick={() => nav('car_salon_3kurs/contacts')}>Контакты</button></li>
+                <li><button className={styles.itemButton} onClick={() => nav('aboutcompany')}>О компании</button></li>
+                <li><button className={styles.itemButton} onClick={() => nav('reviews')}>Отзывы</button></li>
+                <li><button className={styles.itemButton} onClick={() => nav('contacts')}>Контакты</button></li>
                 <li>
                     <div className={styles.orderAndPhone}>
                         <button className={styles.itemButton}>

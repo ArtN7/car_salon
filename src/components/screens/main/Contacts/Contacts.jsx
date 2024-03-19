@@ -19,7 +19,7 @@ const Contacts = () => {
                     </p>
                     <p className={styles.contact}>
                         <span>Адрес:</span>
-                        <p>г.Краснодар, ул.Красная, д.63/9</p>
+                        <p>г.Краснодар, ул.Красная, д.176/1</p>
                     </p>
                 </address>
             </div>

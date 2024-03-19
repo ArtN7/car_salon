@@ -1,0 +1,46 @@
+.container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.socialContainer {
+    width: 150px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    height: 28px;
+    opacity: 0.6;
+}
+.social:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.navList {
+    margin: 0;
+    margin-right: 20px;
+    padding: 0;
+    list-style-type: none;
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+.navButton, .navLink{
+    background-color: inherit;
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.navLink:hover, .navButton:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.navLink a{
+    font-family:sans-serif;
+}
