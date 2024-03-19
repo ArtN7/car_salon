@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/car_salon_3kurs/static/css/main.ffadbb22.css",
+    "main.css": "/car_salon_3kurs/static/css/main.7eb760ea.css",
     "main.js": "/car_salon_3kurs/static/js/main.ed16ed7c.js",
     "static/media/ferrari_812_competizione.jpg": "/car_salon_3kurs/static/media/ferrari_812_competizione.b8c265582af99f779e84.jpg",
     "static/media/promo-wheel.jpg": "/car_salon_3kurs/static/media/promo-wheel.2dd9312eb4c8f0b037dc.jpg",
@@ -10,11 +10,11 @@
     "static/media/slick.ttf": "/car_salon_3kurs/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/car_salon_3kurs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/car_salon_3kurs/index.html",
-    "main.ffadbb22.css.map": "/car_salon_3kurs/static/css/main.ffadbb22.css.map",
+    "main.7eb760ea.css.map": "/car_salon_3kurs/static/css/main.7eb760ea.css.map",
     "main.ed16ed7c.js.map": "/car_salon_3kurs/static/js/main.ed16ed7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffadbb22.css",
+    "static/css/main.7eb760ea.css",
     "static/js/main.ed16ed7c.js"
   ]
 }
