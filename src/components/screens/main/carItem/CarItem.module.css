@@ -1,5 +1,5 @@
 .container {
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 3%;
     max-width: 500px;
     height: auto;
@@ -18,7 +18,7 @@
     width: 100%;
     text-align: center;
     margin: 0;
-    border-bottom: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid black;
 }
 .description {
     min-height: 65px;
@@ -27,8 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgb(255, 0, 0);
-    border-top: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 .description span {
     width: inherit;
@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid rgb(255, 0, 0);
+    border-bottom: 1px solid black;
 }
 .price {
     margin: 10px 0 20px 0 ;

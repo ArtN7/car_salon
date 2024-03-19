@@ -8,8 +8,8 @@
     width: 120px;
     padding-left: 25px;
     margin-bottom: 5px;
-    border-radius: 5px;
 }
+
 .minValue, .maxValue {
     position: absolute;
     left: 12px;

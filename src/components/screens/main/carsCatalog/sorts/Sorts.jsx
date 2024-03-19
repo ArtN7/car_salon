@@ -1,4 +1,4 @@
-import sortSelect from '../sorts/sortsLogic';
+import sortSelect from './sortsLogic';
 import styles from './Sorts.module.css'
 const Sorts = ({allCars, setAllCars}) => {
     return (

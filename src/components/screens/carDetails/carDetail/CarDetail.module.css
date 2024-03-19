@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     background-position: 50%;
     margin-bottom: 15px;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 .miniInfo{
     min-width: 300px;
@@ -15,11 +15,11 @@
     display: flex;
     flex-direction: column;
     gap:20px;
-    border: 1px solid red;
+    border: 1px solid black;
     font-size: 20px;
 }
 .error{
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid black;
     font-size: 20px;
     margin: auto;
     margin-top: 20px;

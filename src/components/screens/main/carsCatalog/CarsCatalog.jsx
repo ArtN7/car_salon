@@ -1,9 +1,9 @@
 import CarItem from '../carItem/CarItem';
 import cars from "../../../../carsBD"
 import { useState } from 'react';
-import Sorts from '../sorts/Sorts';
+import Sorts from './sorts/Sorts';
+import CarFilters from './carFilters/CarFilters'
 import styles from '../carsCatalog/CarsCatalog.module.css'
-import CarFilters from '../carFilters/CarFilters';
 
 const CarsCatalog = () => {
     const [allCars, setAllCars] = useState(cars);

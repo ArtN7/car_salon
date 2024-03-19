@@ -17,11 +17,9 @@
     background-color: inherit;
     border: none;
     font-size: 18px;
+    padding: 10px;
 }
-.itemButton:hover {
-    cursor: pointer;
-    color: red;
-}
+
 .logo {
     width: 115px;
     font-size: 20px;
@@ -31,16 +29,20 @@
     text-transform: uppercase;
 }
 .orderAndPhone {
-    width: 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .phone {
     font-size: 18px;
+    padding: 10px;
     text-decoration: none;
     color: black;
 }
-.phone:hover {
-    color: red;
+.itemButton:hover,  .phone:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    transition: 0.25s;
 }
