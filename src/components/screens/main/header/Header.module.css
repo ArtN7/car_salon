@@ -46,3 +46,13 @@
     border-radius: 5px;
     transition: 0.25s;
 }
+.popup {
+    position: fixed;
+    top: 25%;
+    right: 25%;
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}

@@ -1,5 +1,5 @@
 import {useNavigate, useParams } from "react-router-dom";
-import cars from "../../../../carsBD.js"
+import cars from "../../../../carsBD.json"
 import styles from "./CarDetail.module.css"
 import CarDetailDescription from "../carDetailDescription/CarDetailDescription.jsx";
 

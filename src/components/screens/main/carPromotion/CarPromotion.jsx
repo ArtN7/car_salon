@@ -23,19 +23,19 @@ const CarPromotion = () => {
             <p className={styles.personalData}>Оставляя заявку, вы соглашаетесь на обработку персональных данных</p>
             <form id={'promotionForm'} className={styles.form} onSubmit={handleSubmit(onSubmit)}>
                 <label>
-                    Имя
+                    <span className={styles.fieldName}>Имя</span>
                     <input {...register('name', {required: 'Заполните поле'})} type='text' placeholder='Имя'/>
-                    <p>{errors.name?.message}</p>
+                    <p className={styles.errorMessage}>{errors.name?.message}</p>
                 </label>
                 <label>
-                    Телефон
+                    <span className={styles.fieldName}>Телефон</span>
                     <input {...register('phone', {required: 'Заполните поле',  pattern: {value: /^\(?([0-9]{1})?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/, message:'Введите корректный номер(содержит 11 цифр)'}})} type='text' placeholder='Телефон' />
-                    <p>{errors.phone?.message}</p>
+                    <p className={styles.errorMessage}>{errors.phone?.message}</p>
                 </label>
                 <label>
-                    Почта
-                    <input {...register('email', {required: 'Заполните поле', pattern: {value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g, message:'Введите корректные имейл'}})} type='text' placeholder='Почта' />
-                    <p>{errors.email?.message}</p>
+                    <span className={styles.fieldName}>Почта</span>
+                    <input {...register('email', {required: 'Заполните поле', pattern: {value: /^[\w-\\.]+@([\w-]+\.)+[\w-]{2,4}$/g, message:'Введите корректные имейл'}})} type='text' placeholder='Почта' />
+                    <p className={styles.errorMessage}>{errors.email?.message}</p>
                 </label>
                 <button type='submit' className='btn'>Отправить</button>
                 {isFormValid ? <p className={styles.confirmForm}>Отправлено</p>: ''}

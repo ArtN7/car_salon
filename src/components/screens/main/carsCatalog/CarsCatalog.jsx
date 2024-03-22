@@ -1,11 +1,13 @@
 import CarItem from '../carItem/CarItem';
-import cars from "../../../../carsBD"
+import carsJson from "../../../../carsBD.json"
 import { useState } from 'react';
 import Sorts from './sorts/Sorts';
 import CarFilters from './carFilters/CarFilters'
 import styles from '../carsCatalog/CarsCatalog.module.css'
 
 const CarsCatalog = () => {
+    const cars = carsJson;
+    // const cars = JSON.parse(String(carsJson));
     const [allCars, setAllCars] = useState(cars);
     return (
         <div id={'carsCatalogContainer'} className={styles.container}>

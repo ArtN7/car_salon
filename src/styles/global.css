@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(234, 233, 233);
 }
@@ -21,6 +24,7 @@ body{
     background-color: black;
     color: white;
     border-radius: 5px;
+    cursor: pointer;
     transition: 0.25s;
 }
 input{
@@ -33,13 +37,21 @@ input:focus, select:focus {
     border: 1px solid black;
     border-radius: 5px;
 }
-/*Firefox remove arrows*/
-input[type=number] {
-    -moz-appearance: textfield;
-}
+
 /*Chrome, Safari remove arrows*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+/*Feedback module. slider arrows from slick-carousel(node_modules)*/
+.slick-arrow.slick-next::before,
+.slick-arrow.slick-prev::before{
+    color: black;
+    font-size: 25px;
+}
+/*Feedback module. slider dots from slick-carousel(node_modules)*/
+ul.slick-dots li button:before {
+    font-size: 10px;
+    top: 10px;
 }

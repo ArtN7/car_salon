@@ -3,10 +3,6 @@
     height: 400px;
     margin: 0 auto;
     margin-bottom: 40px;
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
     display: flex;
     justify-content: space-between;
 }
@@ -40,7 +36,6 @@
 .contact{
     padding: 5px 0 ;
     display: flex;
-    justify-content: start;
 }
 .contact span {
     margin: 0 10px;

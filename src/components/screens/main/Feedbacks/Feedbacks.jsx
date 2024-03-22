@@ -1,7 +1,7 @@
 import styles from './Feedbacks.module.css'
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
 const Feedbacks = () => {
     let settings = {
         dots: true,
@@ -9,12 +9,12 @@ const Feedbacks = () => {
         speed: 1500,
         slidesToShow: 3,
         slidesToScroll: 3,
-      };
+    };
     return(
         <div className={styles.container}>
             <h2>Отзывы</h2>
             <Slider {...settings} className={styles.slider}>
-            <div className={styles.feedbackContainer}>
+                <div className={styles.feedbackContainer}>
                     <div className={styles.feedback}>
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
