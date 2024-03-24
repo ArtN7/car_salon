@@ -58,13 +58,13 @@ const Footer = () => {
             <nav className={styles.navigation}>
                 <ul className={styles.navList}>
                     <li>
-                        <button className={styles.navButton} onClick={() => nav('car_salon_3kurs/aboutcompany')}>О компании</button>
+                        <button className={styles.navButton} onClick={() => nav('aboutcompany', {replace: false})}>О компании</button>
                     </li>
                     <li>
-                        <button className={styles.navButton} onClick={() => nav('car_salon_3kurs/reviews')}>Отзывы</button>
+                        <button className={styles.navButton} onClick={() => nav('reviews', {replace: false})}>Отзывы</button>
                     </li>
                     <li>
-                        <button className={styles.navButton} onClick={() => nav('car_salon_3kurs/contacts')}>Контакты</button>
+                        <button className={styles.navButton} onClick={() => nav('contacts', {replace: false})}>Контакты</button>
                     </li>
                     <li>
                         <div className={styles.navLink}>
