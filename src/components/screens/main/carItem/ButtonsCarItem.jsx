@@ -1,10 +1,12 @@
 import styles from './ButtonsCarItem.module.css'
 import '../../../../styles/global.css'
+import { useNavigate } from 'react-router-dom'
 const ButtonsCarItem = ({carId}) => {
+    const nav = useNavigate();
     return (
         <div className={styles.buttons}>
-            <a className='link' href={`/car_salon_3kurs/car/${carId}/formforbuy`}>Купить</a>
-            <a className='link' href={`/car_salon_3kurs/car/${carId}`}>Подробнее</a>
+            <button className='btn' onClick={() => nav(`car/${carId}/formforbuy`, { replace: false })}>Купить</button>
+            <button className='btn' onClick={() => nav(`car/${carId}`, { replace: false })}>Подробнее</button>
         </div>
     )
 }
