@@ -2,6 +2,7 @@ import styles from '../header/Header.module.css'
 import '../../../../styles/global.css'
 import { useNavigate } from 'react-router-dom'
 import Popup from 'reactjs-popup';
+import FormToOrder from '../../../UI/formToOrder/FormToOrder';
 
 const Header = () => {
     const nav = useNavigate();
@@ -17,12 +18,8 @@ const Header = () => {
                 <li><button className={styles.itemButton} onClick={() => nav('contacts')}>Контакты</button></li>
                 <li>
                     <div className={styles.orderAndPhone}>
-                        <Popup trigger={<button className={styles.itemButton}>Заказать</button>}>
-                            <div>
-                                <form className={styles.popup}>
-                                    <input placeholder="Your name"></input>
-                                </form>
-                            </div>
+                        <Popup trigger={ <button className={styles.itemButton}>Заказать</button> }>
+                            <FormToOrder pesronalData={true} formId={'headerOrder'} formStyle={styles.form}/>
                         </Popup>
                         <a className={styles.phone} href="tel:+79189999999">8 (918) 999-99-99</a>
                     </div>
