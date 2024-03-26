@@ -38,6 +38,13 @@ input:focus, select:focus {
     border-radius: 5px;
 }
 
+.popupIsActive {
+    /* opacity: 0.5; */
+}
+.popupIsInActive {
+    display: none;
+}
+
 /*Chrome, Safari remove arrows*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
