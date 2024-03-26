@@ -23,7 +23,7 @@ const FormToOrder = ({pesronalData, formId, formStyle}) => {
                 </label>
                 <label>
                     <span className={styles.fieldName}>Телефон</span>
-                    <input {...register('phone', {required: 'Заполните поле',  pattern: {value: /^\(?([0-9]{1})?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/, message:'Введите корректный номер(содержит 11 цифр)'}})} type='text' placeholder='Телефон' />
+                    <input {...register('phone', {required: 'Заполните поле',  pattern: {value: /^\(?([0-9]{1})?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/, message:'Введите номер(начинать с 8)'}})} type='text' placeholder='Телефон' />
                     <p className={styles.errorMessage}>{errors.phone?.message}</p>
                 </label>
                 <label>
