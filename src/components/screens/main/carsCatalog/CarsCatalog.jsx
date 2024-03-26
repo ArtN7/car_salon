@@ -7,8 +7,10 @@ import styles from '../carsCatalog/CarsCatalog.module.css'
 
 const CarsCatalog = () => {
     const cars = carsJson;
+
     // const cars = JSON.parse(String(carsJson));
     const [allCars, setAllCars] = useState(cars);
+    console.log(allCars)
     return (
         <div id={'carsCatalogContainer'} className={styles.container}>
             <div className={styles.containerSortsFilters}>
