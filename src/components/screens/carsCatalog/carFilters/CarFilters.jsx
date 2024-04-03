@@ -1,5 +1,4 @@
 import styles from './CarFilters.module.css';
-import cars from '../../../../../carsBD'
 import { useState } from 'react';
 import CarFilterInputs from './CarFilterInputs/CarFilterInputs';
 
@@ -23,36 +22,7 @@ const getValue = (cars, key, value) => {
     }, cars[0][key]);
 }
 
-const FILTER_ATTRIBUTES = [
-    {
-        'id': 1,
-        'name': 'Price',
-        'inputName': 'По цене:',
-        'minValue': getValue(cars, 'price', 'min'),
-        'maxValue': getValue(cars, 'price', 'max'),
-    },
-    {
-        'id': 2,
-        'name': 'Year',
-        'inputName': 'По году:',
-        'minValue': getValue(cars, 'year', 'min'),
-        'maxValue': getValue(cars, 'year', 'max'),
-    },
-    {
-        'id': 3,
-        'name': 'Mileage',
-        'inputName': 'По пробегу:',
-        'minValue': getValue(cars, 'mileage', 'min'),
-        'maxValue': getValue(cars, 'mileage', 'max'),
-    },
-    {
-        'id': 4,
-        'name': 'Horse power',
-        'inputName': 'По силам:',
-        'minValue': getValue(cars, 'hp', 'min'),
-        'maxValue': getValue(cars, 'hp', 'max'),
-    },
-]
+
 
 const clickButton = (cars, MIN_MAX_VALUES) => {
     return cars
@@ -63,7 +33,39 @@ const clickButton = (cars, MIN_MAX_VALUES) => {
 
 }
 
-const CarFilters = ({allCars, setAllCars}) => {
+const CarFilters = ({cars, setAllCars}) => {
+
+    const FILTER_ATTRIBUTES = [
+        {
+            'id': 1,
+            'name': 'Price',
+            'inputName': 'По цене:',
+            'minValue': getValue(cars, 'price', 'min'),
+            'maxValue': getValue(cars, 'price', 'max'),
+        },
+        {
+            'id': 2,
+            'name': 'Year',
+            'inputName': 'По году:',
+            'minValue': getValue(cars, 'year', 'min'),
+            'maxValue': getValue(cars, 'year', 'max'),
+        },
+        {
+            'id': 3,
+            'name': 'Mileage',
+            'inputName': 'По пробегу:',
+            'minValue': getValue(cars, 'mileage', 'min'),
+            'maxValue': getValue(cars, 'mileage', 'max'),
+        },
+        {
+            'id': 4,
+            'name': 'Horse power',
+            'inputName': 'По силам:',
+            'minValue': getValue(cars, 'hp', 'min'),
+            'maxValue': getValue(cars, 'hp', 'max'),
+        },
+    ]
+
     const [minPrice, setMinPrice] = useState(FILTER_ATTRIBUTES[0].minValue);
     const [maxPrice, setMaxPrice] = useState(FILTER_ATTRIBUTES[0].maxValue);
     const [minYear, setMinYear] = useState(FILTER_ATTRIBUTES[1].minValue);
@@ -95,9 +97,12 @@ const CarFilters = ({allCars, setAllCars}) => {
     }
 
     const FILTER_INPUTS = document.getElementById('filter')?.querySelectorAll('input');
+    
     const buttonResetClick = (e) => {
         e.preventDefault();
-        FILTER_INPUTS.forEach((input) => input.value = '');
+        FILTER_INPUTS.forEach((input) => {
+            if (input.value) input.value = '';
+        });
         MIN_MAX_FUNC.forEach(([minFunc, maxFunc], count) => {
             minFunc(FILTER_ATTRIBUTES[count].minValue);
             maxFunc(FILTER_ATTRIBUTES[count].maxValue)

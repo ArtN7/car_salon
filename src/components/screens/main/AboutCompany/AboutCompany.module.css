@@ -8,7 +8,7 @@
     background-image: url('../../../UI/images/ferrari_812_competizione.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 -20px;
+    background-position: center;
     position: relative;
 }
 .container h2 {
@@ -42,7 +42,7 @@
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 70px;
+    bottom: 70px;
     right: 40px;
     border-radius: 10px;
 }

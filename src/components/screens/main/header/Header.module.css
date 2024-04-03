@@ -1,9 +1,17 @@
 .container {
-    padding: 20px;
+    padding: 10px;
     background-color: white;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
 }
 .list {
-    min-height: 40px;
+    width: 100%;
     list-style-type: none;
     height: 30px;
     margin: 0;

@@ -5,7 +5,7 @@ const ButtonsCarItem = ({carId}) => {
     const nav = useNavigate();
     return (
         <div className={styles.buttons}>
-            <button className='btn' onClick={() => nav(`car/${carId}/formforbuy`, { replace: false })}>Купить</button>
+            <button className='btn' onClick={() => nav(`car/${carId}/formforbuy`, { replace: false })}>Оформить</button>
             <button className='btn' onClick={() => nav(`car/${carId}`, { replace: false })}>Подробнее</button>
         </div>
     )

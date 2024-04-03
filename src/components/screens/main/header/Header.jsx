@@ -9,13 +9,12 @@ const Header = () => {
     const root = document.getElementById('root');
     const [isPopupActive, setPopupActive] = useState(false);
     isPopupActive ? root.classList.add('popupIsActive') : root.classList.remove('popupIsActive');
-    console.log(root);
+
     return (
         <div id='head' className={styles.container}>
             <ul className={styles.list}>
                 <li className={styles.logo}>
-                    <span>Краснодар</span> 
-                    <span>Авто</span>
+                    <span>BMV-Benz</span> 
                 </li>
                 <li><button className={styles.itemButton} onClick={() => nav('aboutcompany')}>О компании</button></li>
                 <li><button className={styles.itemButton} onClick={() => nav('reviews')}>Отзывы</button></li>
