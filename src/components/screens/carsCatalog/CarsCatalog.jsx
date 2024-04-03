@@ -7,6 +7,7 @@ import styles from '../carsCatalog/CarsCatalog.module.css'
 
 
 const CarsCatalog = ({cars, categories}) => {
+    cars = Object.values(cars)[0] //this str will be delete when i create json server
     let params = useLocation();
     let nameCategory = params.pathname.split('/').at(-1);
     const categoryCars = cars[nameCategory]

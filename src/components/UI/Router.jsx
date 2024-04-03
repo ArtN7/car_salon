@@ -3,15 +3,16 @@ import Main from "../screens/main/Main";
 import CarDetail from "../screens/carDetails/carDetail/CarDetail";
 import PageNotFound from "../UI/pageNotFound/PageNotFound"
 import CarsCatalog from '../../components/screens/carsCatalog/CarsCatalog'
+import cars from '../../carsBD.json' //this str will be delete when i create json-server
 
-let carsJson = await fetch('http://localhost:3001/cars');
-let cars = [];
-if (carsJson.ok) {
-    cars = await carsJson.json();
-} else {
-    alert("Ошибка HTTP: " + carsJson.status);
-}
-
+//next strs i created for json-server
+// let carsJson = await fetch('http://localhost:3001/cars');
+// let cars = [];
+// if (carsJson.ok) {
+//     cars = await carsJson.json();
+// } else {
+//     alert("Ошибка HTTP: " + carsJson.status);
+// }
 
 const Router = () => {
     return(
