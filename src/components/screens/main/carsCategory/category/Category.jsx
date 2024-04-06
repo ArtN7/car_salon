@@ -19,15 +19,26 @@ const Category = ({category}) => {
         default:
             break;
     }
+    const buttonClass = `btn ${styles.button}`
+    if (typeof category === 'object') {
+        return (
+            <div className={styles.container}>
+                <span>{category.name}</span>
+                <span>{category.hp}</span>
+                <button className = {buttonClass} onClick={() => nav(`/car_salon_3kurs/catalog/${category.category}/car/${category.id}`)}>Перейти &#x2192;</button>
+    
+            </div>
+        )
+    } else {
+        return (
+            <div className={styles.container}>
+                <span>{categoryInRussian}</span>
+                <button className = {buttonClass} onClick={() => nav(`/car_salon_3kurs/catalog/${category}`)}>Перейти &#x2192;</button>
+    
+            </div>
+        )
+    }
 
-    return (
-        <div className={styles.container}>
-            <span>{categoryInRussian}</span>
-            {/* <button onClick={() => nav(`/car_salon_3kurs/catalog/${categoryInEnglish}`)}>Перейти &#x2192;</button> */}
-            <button onClick={() => nav(`/car_salon_3kurs/catalog/${category}`)}>Перейти &#x2192;</button>
-
-        </div>
-    )
 
 }
 

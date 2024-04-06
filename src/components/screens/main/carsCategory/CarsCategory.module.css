@@ -1,5 +1,13 @@
 .container {
-    margin: 20px 0 0;
-    margin-top: 45px;
-    padding-top: 20px;
+    font-size: 20px;
+    margin: 3em auto 1em;
+    width: min-content;
+}
+.catalogs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 15em 15em 15em;
+    gap: 1em;
 }

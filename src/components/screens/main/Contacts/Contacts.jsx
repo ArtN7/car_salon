@@ -4,7 +4,7 @@ const Contacts = () => {
     return (
         <div className={styles.container}>
             <div className={styles.map}>
-                <iframe title='yandexMapSalon' src="https://yandex.ru/map-widget/v1/?ll=39.031207%2C45.019628&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjQxMDQzORJO0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7QtNCw0YAsINCh0YLQsNCy0YDQvtC_0L7Qu9GM0YHQutCw0Y8g0YPQu9C40YbQsCwgMTQ5IgoN9R8cQhUZFDRC&z=16.68" allowfullscreen="true" className={styles.frameMap}></iframe>
+                <iframe title='yandexMapSalon' src="https://yandex.ru/map-widget/v1/?ll=39.031207%2C45.019628&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjQxMDQzORJO0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7QtNCw0YAsINCh0YLQsNCy0YDQvtC_0L7Qu9GM0YHQutCw0Y8g0YPQu9C40YbQsCwgMTQ5IgoN9R8cQhUZFDRC&z=16.68" allowFullScreen={true} className={styles.frameMap}></iframe>
             </div>
             <div className={styles.contactContainer}>
                 <h2>Контакты</h2>
@@ -19,7 +19,7 @@ const Contacts = () => {
                     </p>
                     <p className={styles.contact}>
                         <span>Адрес:</span>
-                        <p>г.Краснодар, ул.Красная, д.176/1</p>
+                        <span>г.Краснодар, ул.Красная, д.176/1</span>
                     </p>
                 </address>
             </div>
