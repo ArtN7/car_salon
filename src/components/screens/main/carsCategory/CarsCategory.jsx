@@ -1,4 +1,3 @@
-import { useNavigate } from 'react-router-dom';
 import styles from './CarsCategory.module.css'
 import Category from './category/Category';
 
@@ -6,15 +5,17 @@ window.categories = ["sedan", "crossover", "coupe", "cabriolet"]
 const PROMOTION_CARS = [
     {
         'id': 1,
-        'name': 'lambo',
+        'name': 'BMW M5',
         'hp': 1000,
         'category': 'sedan',
+        'url': '../images/promoCarImages/bmw-m5.png'
     },
     {
         'id': 2,
-        'name': 'porsche',
+        'name': 'Mercedes-Benz CLA',
         'hp': 757,
         'category': 'sedan',
+        'url': '../images/promoCarImages/mercedes-benz-cla.png'
     }
 ]
 const CarsCategory = () => {

@@ -3,6 +3,7 @@
     min-height: 400px;
     width: 160px;
     margin-right: 20px;
+    text-align: center;
 }
 .label {
     font-size: 20px;
