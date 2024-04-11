@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { useState } from 'react';
 import styles from './FormToOrder.module.css'
-const FormToOrder = ({pesronalData, formId, formStyle}) => {
+const FormToOrder = ({usePesronalData, formId, formStyle}) => {
     const {register, handleSubmit, formState: { errors }} = useForm({
         defaultValues: {
             name: '',
@@ -36,7 +36,7 @@ const FormToOrder = ({pesronalData, formId, formStyle}) => {
                 <button type='submit' className='btn'>Отправить</button>
                 {isFormValid ? <p className={styles.confirmForm}>Отправлено</p>: ''}
             </div>
-            {pesronalData?<p>Оставляя заявку, вы соглашаетесь на обработку персональных данных</p>:''}
+            {usePesronalData?<p>Оставляя заявку, вы соглашаетесь на обработку персональных данных</p>:''}
         </form>
     )
 }

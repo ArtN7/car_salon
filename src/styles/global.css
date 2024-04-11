@@ -39,7 +39,7 @@ input:focus, select:focus {
 }
 
 .popupIsActive {
-    position: relative;
+    position: absolute;
 }
 .popupIsActive:after {
     content: "";

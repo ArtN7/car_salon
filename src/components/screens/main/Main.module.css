@@ -4,7 +4,7 @@
 }
 .mainContainer{
     text-align: center;
-    width: 100%;
+    width: 100vw;
 }
 .name {
     margin-bottom:20px;

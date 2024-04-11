@@ -1,4 +1,4 @@
-import styles from './CarDeatilDescription.module.css';
+import styles from './CarDetailDescription.module.css';
 const CarDetailDescription = ({car}) => {
     return (
         <div>

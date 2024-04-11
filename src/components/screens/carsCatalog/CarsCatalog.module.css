@@ -4,6 +4,7 @@
     padding-top: 20px;
     display: grid;
     grid-template-columns: 150px 11fr;
+    position: relative;
 }
 .containerSortsFilters {
     display: flex;
@@ -29,4 +30,11 @@
 }
 .notFoundCars {
     margin-top: 10px;
+}
+.button {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    top: 5px;
+    left: 10px;
 }

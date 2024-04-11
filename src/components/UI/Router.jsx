@@ -19,10 +19,10 @@ const Router = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='car_salon_3kurs/' element={<Main/>} />
-                <Route path='car_salon_3kurs/car/:id' element={<CarDetail/>} />
                 <Route path='*' element={<PageNotFound/>} />
+                <Route path='car_salon_3kurs/' element={<Main/>} />
                 <Route path='car_salon_3kurs/catalog/sedan' element={<CarsCatalog cars={cars} categories={window.categories}/>}/>
+                <Route path='car_salon_3kurs/catalog/sedan/car/:id' element={<CarDetail category={'sedan'}/>}/>
                 <Route path='car_salon_3kurs/catalog/crossover' element={<CarsCatalog cars={cars} categories={window.categories}/>}/>
                 <Route path='car_salon_3kurs/catalog/coupe' element={<CarsCatalog cars={cars} categories={window.categories}/>}/>
                 <Route path='car_salon_3kurs/catalog/cabriolet' element={<CarsCatalog cars={cars} categories={window.categories}/>}/>

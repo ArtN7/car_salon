@@ -1,5 +1,5 @@
 .container {
-    font-size: 20px;
+    font-size: 2em;
     margin: 4em auto 2em;
 }
 .catalogs {
@@ -8,6 +8,6 @@
     padding: 0;
     width: min-content;
     display: grid;
-    grid-template-columns:20em 20em 20em;
+    grid-template-columns:12em 12em 12em;
     gap: 3em;
 }
