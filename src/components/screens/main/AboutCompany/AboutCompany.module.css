@@ -1,5 +1,5 @@
 .container {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     height: 600px;
     margin-top: 0;
@@ -30,7 +30,7 @@
     flex-direction: column;
 }
 .infoCompany p {
-    margin: 10px 0 20px;
+    margin: 20px auto ;
 }
 
 .trust {

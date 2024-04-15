@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.itemButton {
+.itemButton, .itemLink {
     background-color: inherit;
     border: none;
     font-size: 18px;
@@ -47,7 +47,7 @@
     text-decoration: none;
     color: black;
 }
-.itemButton:hover,  .phone:hover{
+.itemButton:hover,  .phone:hover, .itemLink:hover{
     cursor: pointer;
     color: white;
     background-color: black;

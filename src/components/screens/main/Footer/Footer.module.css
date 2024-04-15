@@ -20,15 +20,7 @@
     opacity: 1;
     cursor: pointer;
 }
-.navList {
-    margin: 0;
-    margin-right: 20px;
-    padding: 0;
-    list-style-type: none;
-    width: 550px;
-    display: flex;
-    justify-content: space-between;
-}
+
 .navButton, .navLink{
     background-color: inherit;
     width: 100px;
@@ -36,11 +28,11 @@
     font-size: 18px;
     opacity: 0.6;
 }
-
+.navLink{
+    margin-right: 10px;
+}
 .navLink:hover, .navButton:hover {
     opacity: 1;
     cursor: pointer;
 }
-.navLink a{
-    font-family:sans-serif;
-}
+

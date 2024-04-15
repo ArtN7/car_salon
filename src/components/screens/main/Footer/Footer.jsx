@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={styles.container}>
             <div className={styles.socialContainer}>
                 <div className={styles.social}>
-                    <a href='https://t.me/username'>
+                    <a href='https://t.me/@username'>
                         <svg
                             viewBox="0 0 25 25"
                             fill="currentColor"
@@ -19,7 +19,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className={styles.social}>
-                    <a href='https://vk.me/username'>
+                    <a href='https://vk.me/@username'>
                         <svg
                             viewBox="0 0 22 23"
                             fill="currentColor"
@@ -31,7 +31,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className={styles.social}>
-                    <a href='https://www.messenger.com/t/username'>
+                    <a href='https://www.messenger.com/89189999999'>
                         <svg
                             viewBox="0 0 25 25"
                             fill="currentColor"
@@ -43,7 +43,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className={styles.social}>
-                    <a href='https://wa.me/phone?text=Здравствуйте!'>
+                    <a href='https://wa.me/89189999999?text=Здравствуйте!'>
                         <svg
                             fill="currentColor"
                             viewBox="0 0 15 18"
@@ -55,24 +55,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-            <nav className={styles.navigation}>
-                <ul className={styles.navList}>
-                    <li>
-                        <button className={styles.navButton} onClick={() => nav('aboutcompany', {replace: false})}>О компании</button>
-                    </li>
-                    <li>
-                        <button className={styles.navButton} onClick={() => nav('reviews', {replace: false})}>Отзывы</button>
-                    </li>
-                    <li>
-                        <button className={styles.navButton} onClick={() => nav('contacts', {replace: false})}>Контакты</button>
-                    </li>
-                    <li>
-                        <div className={styles.navLink}>
-                            <a href='#head'>Вверх</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
+            <a className={styles.navLink} href='#'>Вверх</a>
         </div>
     )
 }

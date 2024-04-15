@@ -16,9 +16,9 @@ const Header = () => {
                 <li className={styles.logo}>
                     <span>BMV-Benz</span> 
                 </li>
-                <li><button className={styles.itemButton} onClick={() => nav('aboutcompany')}>О компании</button></li>
-                <li><button className={styles.itemButton} onClick={() => nav('reviews')}>Отзывы</button></li>
-                <li><button className={styles.itemButton} onClick={() => nav('contacts')}>Контакты</button></li>
+                <li><a href="#aboutCompany" className={styles.itemLink}>О компании</a></li>
+                <li><a href="#feedbacks" className={styles.itemLink}>Отзывы</a></li>
+                <li><a href="#contacts" className={styles.itemLink}>Контакты</a></li>
                 <li>
                     <div className={styles.orderAndPhone}>
                         <button className={styles.itemButton} onClick={() => {

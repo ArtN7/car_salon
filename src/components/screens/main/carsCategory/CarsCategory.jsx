@@ -20,7 +20,7 @@ const PROMOTION_CARS = [
 ]
 const CarsCategory = () => {
     return(
-        <div className={styles.container}>
+        <div id={'carsCategory'} className={styles.container}>
             <ul className={styles.catalogs}>
                 {PROMOTION_CARS.concat(window.categories).map((category, index) => {
                     return (

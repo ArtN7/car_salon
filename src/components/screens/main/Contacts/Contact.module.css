@@ -39,7 +39,10 @@
 }
 .contact span {
     margin: 0 10px;
-
+}
+.contact p {
+    margin: 0;
+    width: 200px;
 }
 a {
     text-decoration: none;

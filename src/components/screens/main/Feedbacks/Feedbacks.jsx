@@ -11,7 +11,7 @@ const Feedbacks = () => {
         slidesToScroll: 3,
     };
     return(
-        <div className={styles.container}>
+        <div id={'feedbacks'} className={styles.container}>
             <h2>Отзывы</h2>
             <Slider {...settings} className={styles.slider}>
                 <div className={styles.feedbackContainer}>
