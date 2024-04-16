@@ -14,6 +14,10 @@
     max-width: 10.5em;
     z-index: -1;
 }
+.promoImage {
+    background-position: center;
+    background-size: 100%;
+}
 .info {
     display: flex;
     height: 11em;

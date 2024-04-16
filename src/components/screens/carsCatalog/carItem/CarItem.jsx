@@ -10,7 +10,10 @@ const CarItem = ({car}) => {
     return (
         <div className = {styles.container}>
             <h2 className={styles.name}>{car.name}</h2>
-            <img src={car.url} alt = {car.alt}/>
+            <div className={styles.image} alt={car.name} style={{
+                backgroundImage:`url("${car.url}")`,
+                }}>
+            </div>
             <p className={styles.description}>
                 <span>{car.description}</span>
             </p>

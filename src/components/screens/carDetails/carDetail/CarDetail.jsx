@@ -1,50 +1,45 @@
 import {useNavigate, useParams } from "react-router-dom";
 import cars from "../../../../carsBD.json"
 import styles from "./CarDetail.module.css"
-import CarDetailDescription from "../carDetailDescription/CarDetailDescription.jsx";
 
-const CarDetail = ({category}) => {
+const CarDetail = () => {
     const nav = useNavigate();
     const { id } = useParams();
-    let arrCars = [];
-    switch (category) {
-        case 'sedan':
-            arrCars = cars?.cars?.sedan;
-            break;
-        case 'crossover':
-            arrCars = cars?.cars?.crossover;
-            break;
-        case 'cabriolet':
-            arrCars = cars?.cars?.cabriolet;
-            break;
-        case 'coupe':
-            arrCars = cars?.cars?.coupe;
-            break;
-        default:
-            break;
-    }
-
+    let arrCars = Object.values(cars)[0];
     for (let i = 0; i < arrCars.length; i += 1){
         if (Number(id) === arrCars[i].id) {
+            const price = new Intl.NumberFormat("ru-RU", {
+                style: 'currency', currency: 'RUB',
+            }).format(arrCars[i].price);
+            // const mileage = new Intl.NumberFormat("ru-RU").format(arrCars[i].mileage) + ' км';
+            // const hp = new Intl.NumberFormat("ru-RU").format(arrCars[i].hp);
             return (
-                <div className={styles.carDetail}>
-                    <div className={styles.image} alt={arrCars[i].name} style={{
-                        backgroundImage:`url(${arrCars[i].url})`,
+                <div className={styles.container}>
+                    <div className={styles.mainImage} alt={arrCars[i].name} style={{
+                        backgroundImage:`url("${arrCars[i].url}")`,
                         }}>
-                        <button className='btn btnBack' onClick={()=> nav(`/car_salon_3kurs/catalog/${category}`, {replace: false})}>Back</button>
+                        <button className='btn' onClick={()=> nav(`/car_salon_3kurs/catalog/${arrCars[i].category}`, {replace: false})}>Назад</button>
                     </div>
                     <div className={styles.miniInfo}>
                         <h2>{arrCars[i].name}</h2>    
-                        <p>{new Intl.NumberFormat('en-US', {
-                            style: 'currency', currency: 'USD',
-                        }).format(arrCars[i].price)}</p>
+                        <p>{price}</p>
                         <p>{arrCars[i].description}</p>
-                        <div>
-                            <CarDetailDescription car={arrCars[i]}/>
+                        <div className={styles.moreInfo}>
+                            <div className={styles.item}>
+                                <div className ={styles.itemImg} style={{ backgroundImage:`url()` }}/>
+                                <p>{arrCars[i].descriptionEngine}</p>
+                            </div>
+                            <div className={styles.item}>
+                                <div className ={styles.itemImg} style={{ backgroundImage:`url()` }}/>
+                                <p>{arrCars[i].descriptionInterior}</p>
+                            </div>
+                            <div className={styles.item}>
+                                <div className ={styles.itemImg} style={{ backgroundImage:`url()` }}/>
+                                <p>{arrCars[i].descriptionExterior}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             )
         }
     }

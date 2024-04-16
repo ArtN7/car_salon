@@ -1,6 +1,6 @@
 import AboutCompany from "./aboutCompany/AboutCompany";
 import CarPromotion from "./carPromotion/CarPromotion";
-import CarsCategory from "./carsCategory/CarsCategory";
+import CarsInfo from "./carsInfo/CarsInfo";
 import Contacts from "./contacts/Contacts";
 import Feedbacks from "./feedbacks/Feedbacks";
 import Footer from "./footer/Footer";
@@ -9,11 +9,11 @@ import styles from './Main.module.css'
 
 
 
-const Main = () => {
+const Main = ({cars}) => {
     return(
         <div className={styles.mainContainer}>
             <Header/>
-            <CarsCategory/>
+            <CarsInfo cars={cars}/>
             <CarPromotion/>
             <Feedbacks/>
             <AboutCompany/>

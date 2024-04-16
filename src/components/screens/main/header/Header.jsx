@@ -1,11 +1,9 @@
 import styles from '../header/Header.module.css'
 import '../../../../styles/global.css'
-import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import Popup from '../../../UI/popup/Popup';
 
 const Header = () => {
-    const nav = useNavigate();
     const root = document.getElementById('root');
     const [isPopupActive, setPopupActive] = useState(false);
     isPopupActive ? root.classList.add('popupIsActive') : root.classList.remove('popupIsActive');

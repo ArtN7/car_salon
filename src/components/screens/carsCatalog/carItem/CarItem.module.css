@@ -1,7 +1,7 @@
 .container {
     border: 1px solid black;
     border-radius: 3%;
-    max-width: 500px;
+    width: 500px;
     height: auto;
     margin: 0 40px 20px;
     height: 600px;
@@ -19,6 +19,13 @@
     text-align: center;
     margin: 0;
     border-bottom: 1px solid black;
+}
+.image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    width: 500px;
+    height: 300px;
 }
 .description {
     min-height: 65px;

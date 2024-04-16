@@ -1,11 +1,11 @@
-.carDetail {
+.container {
     width: 100%;
 }
-.image{
+.mainImage{
     min-height: 650px;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: center;
     margin-bottom: 15px;
     border: 1px solid black;
 }
@@ -24,4 +24,8 @@
     margin: auto;
     margin-top: 20px;
     width: max-content;
+}
+.item{
+    height: 220px;
+    border: 1px solid red;
 }

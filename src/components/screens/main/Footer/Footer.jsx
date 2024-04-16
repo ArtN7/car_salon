@@ -1,8 +1,6 @@
-import { useNavigate } from 'react-router-dom';
 import styles from './Footer.module.css'
 
 const Footer = () => {
-    const nav = useNavigate();
     return (
         <div className={styles.container}>
             <div className={styles.socialContainer}>

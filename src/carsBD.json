@@ -1,100 +1,132 @@
 {
-  "cars" : {
-    "sedan": [
+  "cars" : [
       {
         "id": 1,
-        "name": "A",
+        "category": "sedan",
+        "name": "Bamblbi",
         "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "alt": "carImage",
+        "promo": false,
         "description": "description description description description description description description description description description",
         "year": 2016,
         "mileage": 120000,
         "hp": 670,
-        "price": 23000000
+        "price": 23000000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
       },
       {
         "id": 2,
-        "name": "B",
-        "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "category": "sedan",
+        "name": "Mersedes-Benz CLA",
+        "url": "https://www.hdcarwallpapers.com/walls/2014_mercedes_benz_cla45_amg-HD.jpg",
+        "alt": "carImage",
+        "promo": true,
         "description": "description",
         "year": 2018,
         "mileage": 1000,
         "hp": 890,
-        "price": 450000
-      }
-    ],
-    "crossover": [
+        "price": 450000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
+      },
       {
-        "id": 1,
+        "id": 3,
+        "category": "crossover",
         "name": "C",
         "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "alt": "carImage",
+        "promo": false,
         "description": "description description description description description description description",
         "year": 2015,
         "mileage": 190000,
         "hp": 630,
-        "price": 780000
+        "price": 780000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
       },
       {
-        "id": 2,
+        "id": 4,
+        "category": "crossover",
         "name": "D",
         "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "alt": "carImage",
+        "promo": false,
         "description": "description",
         "year": 2023,
         "mileage": 10,
         "hp": 1020,
-        "price": 1000000
-      }
-    ],
-    "coupe": [
+        "price": 1000000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
+      },
       {
-        "id": 1,
-        "name": "C",
-        "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "id": 5,
+        "category": "coupe",
+        "name": "BMW M8 coupe",
+        "url": "https://www.hdcarwallpapers.com/thumbs/2019/bmw_m8_competition_coupe_2019_4k-t2.jpg",
+        "alt": "carImage",
+        "promo": true,
         "description": "description description description description description description description",
         "year": 2015,
         "mileage": 190000,
         "hp": 630,
-        "price": 780000
+        "price": 780000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
       },
       {
-        "id": 2,
+        "id": 6,
+        "category": "coupe",
         "name": "D",
         "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "alt": "carImage",
+        "promo": false,
         "description": "description",
         "year": 2023,
         "mileage": 10,
         "hp": 1020,
-        "price": 1000000
-      }
-    ],
-    "cabriolet": [
+        "price": 1000000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
+      },
       {
-        "id": 1,
+        "id": 7,
+        "category": "cabriolet",
         "name": "C",
         "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "alt": "carImage",
+        "promo": false,
         "description": "description description description description description description description",
         "year": 2015,
         "mileage": 190000,
         "hp": 630,
-        "price": 780000
+        "price": 780000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
       },
       {
-        "id": 2,
+        "id": 8,
+        "category": "cabriolet",
         "name": "D",
         "url": "https://www.hdcarwallpapers.com/thumbs/2024/mclaren_artura-t2.jpg",
-        "alt": "Radiation resistance",
+        "alt": "carImage",
+        "promo": false,
         "description": "description",
         "year": 2023,
         "mileage": 10,
         "hp": 1020,
-        "price": 1000000
+        "price": 1000000,
+        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
+        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
+        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
       }
     ]
-  }
 }
