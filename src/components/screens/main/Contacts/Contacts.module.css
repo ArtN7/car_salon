@@ -17,7 +17,7 @@
 }
 .contactContainer {
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
     background-color: white;
 }
 .contactContainer h2 {
@@ -38,11 +38,12 @@
     display: flex;
 }
 .contact span {
-    margin: 0 10px;
+    margin-left: 10px;
+    width: 80px;
+    text-align: start;
 }
 .contact p {
     margin: 0;
-    width: 200px;
 }
 a {
     text-decoration: none;

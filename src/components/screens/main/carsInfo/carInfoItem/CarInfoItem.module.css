@@ -2,12 +2,12 @@
     font-size: 20px;
     max-width: 20em;
     height: 12em;
-    border-radius: 10px;
+    border-radius: 0.5em;
     background-color: white;
     position: relative;
     z-index: 0;
 }
-.container img {
+.categoryImage {
     position: absolute;
     bottom: 3.5em;
     right: 4.5em;
@@ -15,29 +15,37 @@
     z-index: -1;
 }
 .promoImage {
+    height: 100%;
     background-position: center;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5em;
 }
 .info {
-    display: flex;
+    position: absolute;
+    top: 0.5em;
     height: 11em;
+    width: 19.1em;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.characters {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-.name {
-    margin-top: 10px;
+
+.name, .promoName {
+    padding: 2px 5px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.2em;
     text-transform: uppercase;
 }
-.promo {
+.promoName {
+    border: 1px solid black;
+}
+.promoFire {
+    width: 30px;
+    height: 30px;
     position: absolute;
-    top: 0.5em;
-    right: 0.5em;
-    color: rgba(255, 0, 0, 0.816)  ;
+    right: 0.7em;
 }
 
 .button {

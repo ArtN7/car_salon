@@ -3,19 +3,19 @@ import styles from './CarInfoItem.module.css'
 const CarInfoItem = ({category = '', car = ''}) => {
     const nav = useNavigate();
     const buttonClass = `btn ${styles.button}`
+    console.log(require('../images/firePromo.png'))
     if (category === '') {
         return (
             <div className={styles.container}>
-                <span className={styles.promo}>Скидка</span>
                 <div className={styles.promoImage} style={{
-                    backgroundImage:`url()`,
+                    backgroundImage:`url(${car.url})`,
                 }}>
                 </div>
                 <div className={styles.info}>
-                    <div className={styles.characters}>
-                        <span>{car.name}</span>
-                        <span>{car.hp} л.с.</span>
-                    </div>
+                    <span className={styles.promoFire}>
+                        <img src={require('../images/firePromo.png')} width={'35px'} alt='promoFire'/>
+                    </span>
+                    <span className={styles.promoName}>{car.name}</span>
                     <button className = {buttonClass} onClick={() => nav(`/car_salon_3kurs/catalog/${car.category}/car/${car.id}`)}>Перейти &#x2192;</button>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const CarInfoItem = ({category = '', car = ''}) => {
     } else {
         return (
             <div className={styles.container}>
-                <img src={require(`../images/category/${category.name}.png`)} alt = 'promoCar'/>
+                <img className={styles.categoryImage} src={require(`../images/category/${category.name}.png`)} alt = 'promoCar'/>
                 <div className={styles.info}>
                     <span className={styles.name}>{category.ruName}</span>
                     <button className = {buttonClass} onClick={() => nav(`/car_salon_3kurs/catalog/${category.name}`)}>Перейти &#x2192;</button>
