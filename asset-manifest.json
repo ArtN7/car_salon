@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/car_salon_3kurs/static/css/main.94ae631c.css",
-    "main.js": "/car_salon_3kurs/static/js/main.f385d7ae.js",
+    "main.css": "/car_salon_3kurs/static/css/main.3b75cff6.css",
+    "main.js": "/car_salon_3kurs/static/js/main.8f31072b.js",
     "static/media/ferrari_812_competizione.jpg": "/car_salon_3kurs/static/media/ferrari_812_competizione.b8c265582af99f779e84.jpg",
     "static/media/promo-wheel.jpg": "/car_salon_3kurs/static/media/promo-wheel.2dd9312eb4c8f0b037dc.jpg",
     "static/media/cabriolet.png": "/car_salon_3kurs/static/media/cabriolet.98257d55ad2f92fa81ba.png",
@@ -9,16 +9,17 @@
     "static/media/sedan.png": "/car_salon_3kurs/static/media/sedan.d8e602f68609a3432fac.png",
     "static/media/crossover.png": "/car_salon_3kurs/static/media/crossover.ed320542fb862f587d5c.png",
     "static/media/RobertDowneyJr.jpeg": "/car_salon_3kurs/static/media/RobertDowneyJr.ec414b8a519c1d0be616.jpeg",
+    "static/media/firePromo.png": "/car_salon_3kurs/static/media/firePromo.e893c62f941351bce7b5.png",
     "static/media/slick.svg": "/car_salon_3kurs/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/car_salon_3kurs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/car_salon_3kurs/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/car_salon_3kurs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/car_salon_3kurs/index.html",
-    "main.94ae631c.css.map": "/car_salon_3kurs/static/css/main.94ae631c.css.map",
-    "main.f385d7ae.js.map": "/car_salon_3kurs/static/js/main.f385d7ae.js.map"
+    "main.3b75cff6.css.map": "/car_salon_3kurs/static/css/main.3b75cff6.css.map",
+    "main.8f31072b.js.map": "/car_salon_3kurs/static/js/main.8f31072b.js.map"
   },
   "entrypoints": [
-    "static/css/main.94ae631c.css",
-    "static/js/main.f385d7ae.js"
+    "static/css/main.3b75cff6.css",
+    "static/js/main.8f31072b.js"
   ]
 }
