@@ -3,7 +3,6 @@ import styles from './CarInfoItem.module.css'
 const CarInfoItem = ({category = '', car = ''}) => {
     const nav = useNavigate();
     const buttonClass = `btn ${styles.button}`
-    console.log(require('../images/firePromo.png'))
     if (category === '') {
         return (
             <div className={styles.container}>

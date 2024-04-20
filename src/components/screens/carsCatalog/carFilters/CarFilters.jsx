@@ -97,12 +97,13 @@ const CarFilters = ({cars, setAllCars}) => {
     }
 
     const FILTER_INPUTS = document.getElementById('filter')?.querySelectorAll('input');
-    
     const buttonResetClick = (e) => {
         e.preventDefault();
-        FILTER_INPUTS.forEach((input) => {
-            if (input.value) input.value = '';
-        });
+        if (FILTER_INPUTS !== undefined){
+            FILTER_INPUTS.forEach((input) => {
+                // if (input.value !== '') input.value = '';
+            });
+        }
         MIN_MAX_FUNC.forEach(([minFunc, maxFunc], count) => {
             minFunc(FILTER_ATTRIBUTES[count].minValue);
             maxFunc(FILTER_ATTRIBUTES[count].maxValue)

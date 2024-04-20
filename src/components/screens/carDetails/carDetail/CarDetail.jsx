@@ -1,11 +1,11 @@
-import {useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import cars from "../../../../carsBD.json"
 import styles from "./CarDetail.module.css"
 
 const CarDetail = () => {
     const nav = useNavigate();
     const { id } = useParams();
-    let arrCars = Object.values(cars)[0];
+    const arrCars = Object.values(cars)[0];
     for (let i = 0; i < arrCars.length; i += 1){
         if (Number(id) === arrCars[i].id) {
             const price = new Intl.NumberFormat("ru-RU", {
@@ -18,7 +18,7 @@ const CarDetail = () => {
                     <div className={styles.mainImage} alt={arrCars[i].name} style={{
                         backgroundImage:`url("${arrCars[i].url}")`,
                         }}>
-                        <button className='btn' onClick={()=> nav(`/car_salon_3kurs/catalog/${arrCars[i].category}`, {replace: false})}>Назад</button>
+                        <button className='btn' onClick={()=> nav(-1)}>Назад</button>
                     </div>
                     <div className={styles.miniInfo}>
                         <h2>{arrCars[i].name}</h2>    

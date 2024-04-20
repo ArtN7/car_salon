@@ -10,7 +10,7 @@ const ButtonsCarItem = ({carId}) => {
     const [isPopupActive2, setPopupActive2] = useState(false);
     isPopupActive1 || isPopupActive2 ? root.classList.add('popupIsActive') : root.classList.remove('popupIsActive');
 
-    const TEXT_PARAGRAPH_Order = 'Введите данные для покупки автомобиля, и мы с вами свяжемся';
+    const TEXT_PARAGRAPH_ORDER = 'Введите данные для покупки автомобиля, и мы с вами свяжемся';
     const TEXT_PARAGRAPH_TEST = 'Запишитесь на тест-драйв прямо сейчас!';
 
     return (
@@ -22,7 +22,7 @@ const ButtonsCarItem = ({carId}) => {
                 Оформить
             </button>
             {isPopupActive1 ?   
-                <Popup setPopupActive={setPopupActive1} isPopupActive={isPopupActive1} textParagraph={TEXT_PARAGRAPH_Order} formId={'formOrderCarItem'} usePesronalData={true}/>
+                <Popup setPopupActive={setPopupActive1} isPopupActive={isPopupActive1} textParagraph={TEXT_PARAGRAPH_ORDER} formId={'formOrderCarItem'} usePesronalData={true}/>
                 : ''
             }
             <button className='btn' onClick={() => {

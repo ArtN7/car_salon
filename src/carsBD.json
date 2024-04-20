@@ -57,9 +57,9 @@
         "promo": false,
         "description": "description",
         "year": 2023,
-        "mileage": 10,
-        "hp": 1020,
-        "price": 1000000,
+        "mileage": 100,
+        "hp": 875,
+        "price": 100000,
         "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
         "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
         "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
