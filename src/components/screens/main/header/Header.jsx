@@ -12,7 +12,9 @@ const Header = () => {
         <div id='head' className={styles.container}>
             <ul className={styles.list}>
                 <li className={styles.logo}>
-                    <span>BMV-Benz</span> 
+                    <a href='#'>
+                        <span>BMV-Benz</span>
+                    </a>
                 </li>
                 <li><a href="#aboutCompany" className={styles.itemLink}>О компании</a></li>
                 <li><a href="#feedbacks" className={styles.itemLink}>Отзывы</a></li>
