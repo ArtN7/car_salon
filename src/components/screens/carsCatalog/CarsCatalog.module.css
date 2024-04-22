@@ -5,6 +5,7 @@
     display: grid;
     grid-template-columns: 150px 11fr;
     position: relative;
+    width: 100vw;
 }
 .containerSortsFilters {
     display: flex;
