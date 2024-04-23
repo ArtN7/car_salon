@@ -1,16 +1,15 @@
 .container {
-    margin: 20px 0 0;
+    margin: 40px 0 0;
     margin-top: 45px;
     padding-top: 20px;
     display: grid;
     grid-template-columns: 150px 11fr;
     position: relative;
-    width: 100vw;
 }
 .containerSortsFilters {
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
+    margin-left: 45px;
     margin-bottom: 20px;
     width: 180px;
     height: min-content;
@@ -37,5 +36,5 @@
     height: 40px;
     width: 100px;
     top: 5px;
-    left: 10px;
+    left: 45px;
 }

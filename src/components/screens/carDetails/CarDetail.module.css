@@ -1,0 +1,91 @@
+.container {
+    margin: 0 45px;
+}
+
+.imageInfo {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.mainImage{
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.miniInfo{
+    width: 320px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.miniInfo h2 {
+    margin: 10px auto 0;
+}
+.miniCharacters {
+    display: flex;
+    width: 270px;
+    margin: 0 auto;
+}
+.miniCharacters span{
+    width: 120px;
+}
+
+.itemMoreImg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: inherit;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+.moreInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.itemMoreInfo{
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 320px;
+}
+.itemMoreInfo p {
+    margin: auto 0;
+    width: 280px;
+    text-align: center;
+    margin: auto;
+    height: min-content;
+    font-size: 18px;
+}
+
+.button {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    top: 5px;
+    left: 45px;
+}
+.orderButton {
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.error{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 20px;
+    width: max-content;
+}

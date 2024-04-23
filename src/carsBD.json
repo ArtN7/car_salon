@@ -26,11 +26,14 @@
         "description": "description",
         "year": 2018,
         "mileage": 1000,
-        "hp": 890,
-        "price": 450000,
-        "descriptionEngine": "I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine. I'm dedscription for engine.",
-        "descriptionInterior": "I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior. I'm dedscription for Interior.",
-        "descriptionExterior": "I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior. I'm dedscription for Exterior."
+        "hp": 221,
+        "price": 2750000,
+        "descriptionEngine": "Двигатель Mercedes-Benz CLA оборудован мощным 2.0-литровым турбированным четырехцилиндровым двигателем, развивающим 221 л.с. и обеспечивающим плавное ускорение и динамичные характеристики.",
+        "urlEngine": "https://di-uploads-pod3.dealerinspire.com/vindeversautohausofsylvania/uploads/2018/09/2019-MB-CLA-Engine.jpg",
+        "descriptionInterior": "Интерьер Mercedes-Benz CLA поражает изысканностью и комфортом. Кожаные сиденья, подогрев и массаж, мультимедийная система MBUX, цифровая приборная панель и атмосферное освещение создают уютную атмосферу.",
+        "urlInterior": "https://s.auto.drom.ru/i24229/c/photos/fullsize/mercedes-benz/cla-class/mercedes-benz_cla-class_871259.jpg",
+        "descriptionExterior": "Экстерьер Mercedes-Benz CLA впечатляет стильным дизайном и элегантными линиями. Характерный радиаторный гриль, светодиодные фары, спортивные диски и динамичные формы делают автомобиль неповторимым на дороге.",
+        "urlExterior": "https://imagecdnsa.zigwheels.ae/large/gallery/exterior/26/787/mercedes-benz-cla-class-full-rear-view-919402.jpg"
       },
       {
         "id": 3,

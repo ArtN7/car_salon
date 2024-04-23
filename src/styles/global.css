@@ -42,17 +42,14 @@ input:focus, select:focus {
     border-radius: 5px;
 }
 
-.popupIsActive {
-    position: fixed;
-}
 .popupIsActive:after {
-    content: "";
+    content: " ";
     opacity: 0.7;
     background-color: #1C1C1C;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     z-index: 2;
 }
