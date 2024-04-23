@@ -22,7 +22,7 @@
     background-color: white;
     border-radius: 10px;
     width: 380px;
-    height:150px;
+    height:120px;
     position: absolute;
     top: 50px;
     left: 30px;
@@ -30,7 +30,7 @@
     flex-direction: column;
 }
 .infoCompany p {
-    margin: 20px auto ;
+    margin: auto ;
 }
 
 .trust {

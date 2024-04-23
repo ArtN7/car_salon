@@ -101,7 +101,7 @@ const CarFilters = ({cars, setAllCars}) => {
         e.preventDefault();
         if (FILTER_INPUTS !== undefined){
             FILTER_INPUTS.forEach((input) => {
-                // if (input.value !== '') input.value = '';
+                if (input.value !== '') input.value = '';
             });
         }
         MIN_MAX_FUNC.forEach(([minFunc, maxFunc], count) => {
