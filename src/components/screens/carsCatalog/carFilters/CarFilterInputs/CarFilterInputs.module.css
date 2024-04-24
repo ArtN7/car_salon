@@ -13,13 +13,19 @@
     padding-left: 2em;
     margin-bottom: 0.25em;
 }
-.minMaxValue {
+.minValue::before,.maxValue::before{
+    content: "от";
     font-size: 1rem;
-    position: absolute;
+    width: 1em;
+    height: 1em;
+    top: 0.3em;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 3rem;
-    top: 0.19rem;
-    left: 0.4rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0.4em;
+}
+.maxValue::before {
+    content: "до";
+    top: 2.1em;
 }
