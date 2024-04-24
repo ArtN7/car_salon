@@ -2,7 +2,7 @@ import sortSelect from './sortsLogic';
 import styles from './Sorts.module.css'
 const Sorts = ({allCars, setAllCars}) => {
     return (
-        <div className={styles.containerSort}>
+        <div className={styles.container}>
             <label htmlFor={'selectSort'} className={styles.labelSort}>Сортировать:</label>
             <select id = {'selectSort'}  className={styles.select} onChange={() => setAllCars(() => [...sortSelect(allCars)])}>
                 <option value={"byDefault"}>По умолчанию</option>

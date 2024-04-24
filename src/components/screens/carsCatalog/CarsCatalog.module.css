@@ -1,26 +1,27 @@
 .container {
-    margin: 40px 0 0;
+    font-size: 1.25rem;
+    margin: 2em 0 0;
     margin-top: 45px;
     padding-top: 20px;
     display: grid;
-    grid-template-columns: 150px 11fr;
+    grid-template-columns: 7.5em 1fr;
     position: relative;
 }
 .containerSortsFilters {
     display: flex;
     flex-direction: column;
-    margin-left: 45px;
-    margin-bottom: 20px;
-    width: 180px;
+    margin-left: 2.25em;
+    margin-bottom: 1em;
+    width: 9em;
     height: min-content;
     background-color: white;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 0.5em;
 }
 .catalogs {
     margin: 0;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 1em;
+    margin-left: 1em;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -29,12 +30,12 @@
     justify-content: center;
 }
 .notFoundCars {
-    margin-top: 10px;
+    margin-top: 0.5em;
 }
 .button {
     position: absolute;
-    height: 40px;
-    width: 100px;
-    top: 5px;
-    left: 45px;
+    height: 2em;
+    width: 5em;
+    top: 0.25em;
+    left: 2.25em;
 }

@@ -1,19 +1,25 @@
+.container {
+    font-size: 1.25rem;
+}
 .inputsContainer {
     position: relative;
 }
 .nameInput {
-    font-size: 17px;
+    font-size: 1rem;
 }
 .input {
-    width: 120px;
-    padding-left: 25px;
-    margin-bottom: 5px;
+    width: 8rem;
+    height: 1.5em;
+    padding-left: 2em;
+    margin-bottom: 0.25em;
 }
-
-.minValue, .maxValue {
+.minMaxValue {
+    font-size: 1rem;
     position: absolute;
-    left: 12px;
-}
-.maxValue {
-    top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 3rem;
+    top: 0.19rem;
+    left: 0.4rem;
 }

@@ -1,15 +1,11 @@
 .container {
-    padding: 10px;
-    min-height: 400px;
-    width: 160px;
-    margin-right: 20px;
+    font-size: 1.25rem;
+    padding: 0.5em;
+    width: 8em;
     text-align: center;
 }
-.label {
-    font-size: 20px;
-}
 .form {
-    min-height: 380px;
+    height: 28rem;
     position: relative;
 }
 .listOfFilter{
@@ -18,13 +14,13 @@
     list-style-type: none;
 }
 .buttonFilter, .buttonReset{
-    font-size: 16px;
     position: absolute;
     bottom: 0;
-    width: 100%;
-    right: 0;
+    right: 50%;
+    transform: translate(50%, 0%);
+    width: 10rem;
 }
 .buttonReset {
-    margin-bottom: 5px;
-    bottom: 30px;
+    margin-bottom: 0.25em;
+    bottom: 2em;
 }
