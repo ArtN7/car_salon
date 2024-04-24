@@ -40,44 +40,41 @@ const CarDetail = ({cars}) => {
             const TEXT_PARAGRAPH = 'Введите данные для покупки автомобиля, и мы с вами свяжемся';
             const classOrderButton = `btn ${styles.orderButton}`
             return (
-                <div>
+                <div className={styles.container}>
                     <button className={buttonClass} onClick={()=> nav(-1)}>Назад</button>
-                    <div className={styles.container}>
-                        <div className={styles.imageInfo}>
-                            <div className={styles.mainImage} style={{
-                                backgroundImage:`url("${arrCars[i].url}")`,
-                                }}>
-                            </div>
-                            <div className={styles.miniInfo}>
-                                <h2>{arrCars[i].name}</h2>    
-                                <p className={styles.miniCharacters}><span>Цена: </span>{price}</p>
-                                <p className={styles.miniCharacters}><span>Пробег: </span>{mileage}</p>
-                                <p className={styles.miniCharacters}><span>Мощность: </span>{hp}</p>
-                                <p className={styles.miniCharacters}><span>Кузов: </span>{categoryName}</p>
-                                <button className={classOrderButton} onClick={() => {
-                                        setPopupActive(!isPopupActive);
-                                        isPopupActive ? root.classList.add('popupIsActive') : root.classList.remove('popupIsActive');
-                                    }}>Оформить
-                                </button>
-                                {isPopupActive ?  
-                                    <Popup setPopupActive={setPopupActive} isPopupActive={isPopupActive} textParagraph={TEXT_PARAGRAPH} formId={'formHeader'} usePesronalData={true}/>
-                                    : ''
-                                }
-                            </div>
+                    {isPopupActive ?  
+                        <Popup setPopupActive={setPopupActive} isPopupActive={isPopupActive} textParagraph={TEXT_PARAGRAPH} formId={'formHeader'} usePesronalData={true}/>
+                        : ''
+                    }
+                    
+                    <div className={styles.containerInfo}>
+                        <div className={styles.mainImage} style={{
+                            backgroundImage:`url("${arrCars[i].url}")`,
+                            }}>
                         </div>
-                        <div className={styles.moreInfo}>
-                            <div className={styles.itemMoreInfo}>
-                                <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlEngine})` }}/>
-                                <p>{arrCars[i].descriptionEngine}</p>
-                            </div>
-                            <div className={styles.itemMoreInfo}>
-                                <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlInterior})` }}/>
-                                <p>{arrCars[i].descriptionInterior}</p>
-                            </div>
-                            <div className={styles.itemMoreInfo}>
-                                <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlExterior})` }}/>
-                                <p>{arrCars[i].descriptionExterior}</p>
-                            </div>
+                        <div className={styles.miniInfo}>
+                            <h2>{arrCars[i].name}</h2>    
+                            <p className={styles.miniCharacters}><span>Цена: </span>{price}</p>
+                            <p className={styles.miniCharacters}><span>Пробег: </span>{mileage}</p>
+                            <p className={styles.miniCharacters}><span>Мощность: </span>{hp}</p>
+                            <p className={styles.miniCharacters}><span>Кузов: </span>{categoryName}</p>
+                            <button className={classOrderButton} onClick={() => {
+                                    setPopupActive(!isPopupActive);
+                                    isPopupActive ? root.classList.add('popupIsActive') : root.classList.remove('popupIsActive');
+                                }}>Оформить
+                            </button>
+                        </div>
+                        <div className={styles.itemMoreInfo}>
+                        <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlEngine})` }}/>
+                            <p>{arrCars[i].descriptionEngine}</p>
+                        </div>
+                        <div className={styles.itemMoreInfo}>
+                            <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlInterior})` }}/>
+                            <p>{arrCars[i].descriptionInterior}</p>
+                        </div>
+                        <div className={styles.itemMoreInfo}>
+                            <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlExterior})` }}/>
+                            <p>{arrCars[i].descriptionExterior}</p>
                         </div>
                     </div>
                 </div>

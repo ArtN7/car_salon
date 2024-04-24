@@ -1,40 +1,44 @@
 .container {
-    margin: 0 45px;
+    width: min-content;
+    margin: 0 auto;
+}
+.containerInfo {
+    margin: 4rem 0;
+    font-size: 1.125em;
+    display: grid;
+    grid-template-columns: 20em 20em 20em;
+    grid-template-rows: auto auto;
+    row-gap: 2.8em;
+    column-gap: 7.5em;
 }
 
-.imageInfo {
-    margin-top: 70px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
 .mainImage{
-    width: 900px;
-    height: 500px;
+    height: 27.8em;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 10px;
+    border-radius: 0.56em;
+    grid-column: span 2;
 }
 .miniInfo{
-    width: 320px;
-    font-size: 20px;
+    font-size: 1.1em;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1em;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.5em;
+    grid-column: span 1;
 }
 .miniInfo h2 {
-    margin: 10px auto 0;
+    margin: 0.5em auto 0;
 }
 .miniCharacters {
     display: flex;
-    width: 270px;
+    width: 13.5em;
     margin: 0 auto;
 }
 .miniCharacters span{
-    width: 120px;
+    width: 6em;
 }
 
 .itemMoreImg {
@@ -42,50 +46,46 @@
     background-repeat: no-repeat;
     background-position: center;
     width: inherit;
-    height: 250px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    height: 13.5em;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
     
 }
-.moreInfo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 .itemMoreInfo{
     display: flex;
     flex-direction: column;
-    height: 470px;
-    border-radius: 10px;
+    height: 26.1em;
+    border-radius: 0.5em;
     background-color: white;
     margin-top: 0;
-    margin-bottom: 30px;
-    width: 320px;
+    margin-bottom: 1.5em;
+    grid-column: span 1;
 }
 .itemMoreInfo p {
     margin: auto 0;
-    width: 280px;
+    width: 15.6em;
     text-align: center;
     margin: auto;
     height: min-content;
-    font-size: 18px;
+    font-size: 1em;
 }
 
 .button {
     position: absolute;
-    height: 40px;
-    width: 100px;
-    top: 5px;
-    left: 45px;
+    font-size: 1.1em;
+    height: 2.22em;
+    width: 5.6em;
+    top: 0.28em;
 }
 .orderButton {
-    width: 200px;
+    font-size: 1em;
+    width: 10em;
+    margin-bottom: 1.1em;
     margin-top: auto;
-    margin-bottom: 20px;
 }
 .error{
-    font-size: 20px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 1.1em;
     width: max-content;
 }

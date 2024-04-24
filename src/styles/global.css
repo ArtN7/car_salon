@@ -4,19 +4,20 @@ html {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
 }
 body{
     background-color: rgb(234, 233, 233);
 }
 .link, .btn {
-    font-size: 18px;
+    font-size: 1.1rem;
     color: black;   
     text-decoration: none;
     background-color:white;
     border: 1px solid black;
-    border-radius: 5px;
-    width: 120px;
-    min-height: 30px;
+    border-radius: 0.3125rem;
+    width: 7.5rem;
+    min-height: 1.875rem;
     margin: 0 auto;
 }
 .link{
@@ -33,13 +34,12 @@ body{
 }
 input{
     border: 1px solid rgb(177, 177, 177);
-    border-radius: 5px;
-    height: 20px;
+    border-radius: 0.3125rem;
+    height: 2rem;
 }
 input:focus, select:focus {
     outline: none !important;
     border: 1px solid black;
-    border-radius: 5px;
 }
 
 .popupIsActive:after {
@@ -73,4 +73,26 @@ input::-webkit-inner-spin-button {
 ul.slick-dots li button:before {
     font-size: 10px;
     top: 10px;
+}
+
+@media (max-width: 1400px){
+    html {
+        font-size: 15px;
+    }
+}
+@media (max-width: 1200px){
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1050px){
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 900px){
+    html {
+        font-size: 9.5px;
+    }
 }
