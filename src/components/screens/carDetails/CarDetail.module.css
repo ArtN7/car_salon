@@ -6,7 +6,7 @@
     margin: 4rem 0;
     font-size: 1.125em;
     display: grid;
-    grid-template-columns: 20em 20em 20em;
+    grid-template-columns: 19.5em 19.5em 21em;
     grid-template-rows: auto auto;
     row-gap: 2.8em;
     column-gap: 7.5em;
