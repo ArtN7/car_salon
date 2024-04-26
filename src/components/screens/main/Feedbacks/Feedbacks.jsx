@@ -17,72 +17,72 @@ const Feedbacks = () => {
                 <div className={styles.feedbackContainer}>
                     <div className={styles.feedback}>
                         <span className={styles.containerImage}>
-                            <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
+                            <img src={require("../../../UI/images/lazarev.jpeg")} alt="lazarev"/>
                         </span>
-                        <h3 className={styles.userName}>1 Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>Сергей Лазарев</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
-                            Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
+                            Приобрел Mercedes-Benz у вас, и не могу быть счастливее! 
+                            Очень внимательный персонал, огромный выбор моделей и качество обслуживания на высшем уровне! 
                         </p>
                     </div>
                 </div>
                 <div className={styles.feedbackContainer}>
                     <div className={styles.feedback}>
                         <span className={styles.containerImage}>
-                            <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
+                            <img src={require("../../../UI/images/chebotina.jpeg")} alt="chebotina"/>
                         </span>
-                        <h3 className={styles.userName}>2 Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>Люся Чеботина</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
-                            Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
+                            BMW M5 — это автомобиль, который просто завораживает своей мощью и комфортом. 
+                            Он действительно делает впечатление и приносит непередаваемое удовольствие от вождения!
                         </p>
                     </div>
                 </div>
                 <div className={styles.feedbackContainer}>
                     <div className={styles.feedback}>
                         <span className={styles.containerImage}>
-                            <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
+                            <img src={require("../../../UI/images/leps.jpeg")} alt="leps"/>
                         </span>
-                        <h3 className={styles.userName}>3 Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>Григорий Лепс</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
-                            Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
+                            Покупка Mercedes-Benz GLS 600 стала для меня настоящим открытием! 
+                            Этот автомобиль просто сказочный — комфорт, роскошь и производительность в одном флаконе!
                         </p>
                     </div>
                 </div>
                 <div className={styles.feedbackContainer}>
                     <div className={styles.feedback}>
                         <span className={styles.containerImage}>
-                            <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
+                            <img src={require("../../../UI/images/instasamka.jpeg")} alt="instasamka"/>
                         </span>
-                        <h3 className={styles.userName}>4 Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>Дарья</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
-                            Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
+                            BMW 8 серии — это не просто автомобиль, это произведение искусства. 
+                            Я влюблен в каждую его деталь, в его элегантность и динамизм. Просто восхитительно! 
                         </p>
                     </div>
                 </div>
                 <div className={styles.feedbackContainer}>
                     <div className={styles.feedback}>
                         <span className={styles.containerImage}>
-                            <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
+                            <img src={require("../../../UI/images/miyagi_endshpil.jpeg")} alt="miyagi_endshpil"/>
                         </span>
-                        <h3 className={styles.userName}>5 Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>Miyagi & Эндшпиль</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
-                            Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
+                            Mercedes-Benz CLA — это идеальный автомобиль для современного городского жителя. 
+                            Его современный дизайн и передовые технологии делают его просто непревзойденным в своем классе! 
                         </p>
                     </div>
                 </div>   
                 <div className={styles.feedbackContainer}>
                     <div className={styles.feedback}>
                         <span className={styles.containerImage}>
-                            <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
+                            <img src={require("../../../UI/images/buzova.jpeg")} alt="buzova"/>
                         </span>
-                        <h3 className={styles.userName}>6 Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>Ольга Бузова</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
-                            Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
+                            BMW M5 Competition — это автомобиль, который просто оставляет вас без слов. 
+                            Его мощь, производительность и спортивный характер создают неповторимые ощущения от вождения!
                         </p>
                     </div>
                 </div>  
