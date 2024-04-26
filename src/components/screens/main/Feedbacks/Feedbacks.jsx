@@ -19,9 +19,9 @@ const Feedbacks = () => {
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
                         </span>
-                        <h3 className={styles.userName}>1Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>1 Роберт Дауни младший</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 Lamborghini, 5 McLaren и 1 Bugatti. 
+                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
                             Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
                         </p>
                     </div>
@@ -31,9 +31,9 @@ const Feedbacks = () => {
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
                         </span>
-                        <h3 className={styles.userName}>2Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>2 Роберт Дауни младший</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 Lamborghini, 5 McLaren и 1 Bugatti. 
+                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
                             Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
                         </p>
                     </div>
@@ -43,9 +43,9 @@ const Feedbacks = () => {
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
                         </span>
-                        <h3 className={styles.userName}>3Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>3 Роберт Дауни младший</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 Lamborghini, 5 McLaren и 1 Bugatti. 
+                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
                             Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
                         </p>
                     </div>
@@ -55,9 +55,9 @@ const Feedbacks = () => {
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
                         </span>
-                        <h3 className={styles.userName}>4Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>4 Роберт Дауни младший</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 Lamborghini, 5 McLaren и 1 Bugatti. 
+                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
                             Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
                         </p>
                     </div>
@@ -67,9 +67,9 @@ const Feedbacks = () => {
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
                         </span>
-                        <h3 className={styles.userName}>5Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>5 Роберт Дауни младший</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 Lamborghini, 5 McLaren и 1 Bugatti. 
+                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
                             Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
                         </p>
                     </div>
@@ -79,9 +79,9 @@ const Feedbacks = () => {
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/RobertDowneyJr.jpeg")} alt=""/>
                         </span>
-                        <h3 className={styles.userName}>6Роберт Дауни младший</h3>
+                        <h3 className={styles.userName}>6 Роберт Дауни младший</h3>
                         <p>
-                            Отличный автосалон. Купил здесь 10 Lamborghini, 5 McLaren и 1 Bugatti. 
+                            Отличный автосалон. Купил здесь 10 BMW M5, 5 Mercedes-Bens Maybach GLS 600 и 1 BMW M8. 
                             Вежливый персонал. Покупка автомобиля заняла в среднем 5 мин.
                         </p>
                     </div>

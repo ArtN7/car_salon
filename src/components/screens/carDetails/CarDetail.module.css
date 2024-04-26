@@ -31,6 +31,7 @@
 }
 .miniInfo h2 {
     margin: 0.5em auto 0;
+    text-align: center;
 }
 .miniCharacters {
     display: flex;

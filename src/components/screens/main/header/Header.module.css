@@ -1,13 +1,13 @@
 .container {
+    position: fixed;
+    width: 100%;
+    top: 0;
     padding: 10px;
     background-color: white;
-    height: 22px;
+    height: 22.5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
     z-index: 5;
 }
 .list {

@@ -2,12 +2,12 @@
     border: 1px solid black;
     border-radius: 3%;
     width: 500px;
-    height: auto;
     margin: 0 40px 20px;
-    height: 600px;
+    height: 630px;
     text-align: center;
     font-size: 18px;
     background-color: white;
+    position: relative;
 }
 .container img {
     display: block;
@@ -28,7 +28,8 @@
     height: 300px;
 }
 .description {
-    min-height: 65px;
+    min-height: 105px;
+    width: 98%;
     margin: 0;
     padding: 5px;
     display: flex;

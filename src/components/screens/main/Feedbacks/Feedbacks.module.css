@@ -11,11 +11,16 @@
     border-radius: 15px;
     font-size: 16px;
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     display: flex;
     flex-direction: column;
 
+}
+.feedback p{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
 }
 .containerImage img {
     width: 120px;

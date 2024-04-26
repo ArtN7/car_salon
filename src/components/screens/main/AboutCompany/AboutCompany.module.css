@@ -5,7 +5,7 @@
     margin-top: 0;
     margin-bottom: 40px;
     position: relative;
-    background-image: url('../../../UI/images/ferrari_812_competizione.jpg');
+    background-image: url('https://www.hdcarwallpapers.com/download/mercedes_maybach_s_580_e_2023_4k-2560x1440.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,6 +15,7 @@
     top: 10px;
     right: 30%;
     position: absolute;
+    color: black;
 }
 .infoCompany {
     padding: 0 10px;
