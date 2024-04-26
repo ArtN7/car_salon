@@ -1,13 +1,18 @@
 {
   "files": {
     "main.css": "/car_salon_3kurs/static/css/main.ba2cb9b1.css",
-    "main.js": "/car_salon_3kurs/static/js/main.5aa5aaa2.js",
+    "main.js": "/car_salon_3kurs/static/js/main.752e00e4.js",
     "static/media/promo-wheel.jpg": "/car_salon_3kurs/static/media/promo-wheel.2dd9312eb4c8f0b037dc.jpg",
     "static/media/cabriolet.png": "/car_salon_3kurs/static/media/cabriolet.98257d55ad2f92fa81ba.png",
     "static/media/coupe.png": "/car_salon_3kurs/static/media/coupe.74c8785b4ec749f9148a.png",
     "static/media/sedan.png": "/car_salon_3kurs/static/media/sedan.d8e602f68609a3432fac.png",
+    "static/media/buzova.jpeg": "/car_salon_3kurs/static/media/buzova.8cf906eac7d2510ca6f0.jpeg",
     "static/media/crossover.png": "/car_salon_3kurs/static/media/crossover.ed320542fb862f587d5c.png",
-    "static/media/RobertDowneyJr.jpeg": "/car_salon_3kurs/static/media/RobertDowneyJr.ec414b8a519c1d0be616.jpeg",
+    "static/media/lazarev.jpeg": "/car_salon_3kurs/static/media/lazarev.b04e45ebdc343b7d2d20.jpeg",
+    "static/media/leps.jpeg": "/car_salon_3kurs/static/media/leps.1a7822da8e453a5c8c95.jpeg",
+    "static/media/chebotina.jpeg": "/car_salon_3kurs/static/media/chebotina.5549f57ca9dbef0f2032.jpeg",
+    "static/media/miyagi_endshpil.jpeg": "/car_salon_3kurs/static/media/miyagi_endshpil.2d04d996d3458d8f88f7.jpeg",
+    "static/media/instasamka.jpeg": "/car_salon_3kurs/static/media/instasamka.24f51fb2a42cf8348872.jpeg",
     "static/media/firePromo.png": "/car_salon_3kurs/static/media/firePromo.e893c62f941351bce7b5.png",
     "static/media/slick.svg": "/car_salon_3kurs/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/car_salon_3kurs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -15,10 +20,10 @@
     "static/media/slick.woff": "/car_salon_3kurs/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/car_salon_3kurs/index.html",
     "main.ba2cb9b1.css.map": "/car_salon_3kurs/static/css/main.ba2cb9b1.css.map",
-    "main.5aa5aaa2.js.map": "/car_salon_3kurs/static/js/main.5aa5aaa2.js.map"
+    "main.752e00e4.js.map": "/car_salon_3kurs/static/js/main.752e00e4.js.map"
   },
   "entrypoints": [
     "static/css/main.ba2cb9b1.css",
-    "static/js/main.5aa5aaa2.js"
+    "static/js/main.752e00e4.js"
   ]
 }
