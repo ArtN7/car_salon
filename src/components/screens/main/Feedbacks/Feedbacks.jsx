@@ -55,7 +55,7 @@ const Feedbacks = () => {
                         <span className={styles.containerImage}>
                             <img src={require("../../../UI/images/instasamka.jpeg")} alt="instasamka"/>
                         </span>
-                        <h3 className={styles.userName}>Дарья</h3>
+                        <h3 className={styles.userName}>Instasamka</h3>
                         <p>
                             BMW 8 серии — это не просто автомобиль, это произведение искусства. 
                             Я влюблен в каждую его деталь, в его элегантность и динамизм. Просто восхитительно! 
