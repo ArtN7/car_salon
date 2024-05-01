@@ -79,11 +79,17 @@
     width: 5.6em;
     top: 0.28em;
 }
-.orderButton {
-    font-size: 1em;
-    width: 10em;
+.serviceButtonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
     margin-bottom: 1.1em;
     margin-top: auto;
+}
+.serviceButton {
+    font-size: 1em;
+    width: 10em;
+
 }
 .error{
     margin: auto;

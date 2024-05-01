@@ -1,0 +1,19 @@
+.container {
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+.form {
+    display: flex;
+}
+.input {
+    font-size: 1rem;
+    width: 50em;
+    padding: 0 15px;
+    margin-right: 1.5em;
+}
+.containerButtons {
+    width: 13em;
+    display: flex;
+    justify-content: space-between;
+}

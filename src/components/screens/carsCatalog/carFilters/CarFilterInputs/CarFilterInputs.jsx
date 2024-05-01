@@ -1,16 +1,16 @@
 import styles from './CarFilterInputs.module.css'
 
 
-const CarFilterInputs = ({nameInput, minValue, maxValue, setMinValue, setMaxValue}) => {
+const CarFilterInputs = ({name, nameInput, minValue, maxValue}) => {
     return (
         <div className={styles.container}>
-            <label htmlFor="filter" className={styles.nameInput}>{nameInput}</label>
-            <div id ='filter' className={styles.inputsContainer}>
+            <p className={styles.nameInput}>{nameInput}</p>
+            <div id ='filterPartInputsContainer' className={styles.inputsContainer}>
                 <label className={styles.minValue}>
-                    <input className={styles.input} type="number" placeholder={minValue} onChange={(e) => {setMinValue(e.target.value)}}/>
+                    <input name={name} className={styles.input} type="number" placeholder={minValue} />
                 </label>
                 <label className={styles.maxValue}>
-                    <input className={styles.input} type="number" placeholder={maxValue} onChange={(e) => {setMaxValue(e.target.value)}}/>
+                    <input name={name} className={styles.input} type="number" placeholder={maxValue} />
                 </label>
             </div>
         </div>

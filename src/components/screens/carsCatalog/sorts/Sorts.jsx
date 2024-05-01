@@ -1,10 +1,10 @@
 import sortSelect from './sortsLogic';
 import styles from './Sorts.module.css'
-const Sorts = ({allCars, setAllCars}) => {
+const Sorts = ({cars, setAllCars}) => {
     return (
         <div className={styles.container}>
             <label htmlFor={'selectSort'} className={styles.labelSort}>Сортировать:</label>
-            <select id = {'selectSort'}  className={styles.select} onChange={() => setAllCars(() => [...sortSelect(allCars)])}>
+            <select id = {'selectSort'}  className={styles.select} onChange={() => setAllCars(() => [...sortSelect(cars)])}>
                 <option value={"byDefault"}>По умолчанию</option>
                 <option value={"sortByNameUp"}>По имени A-Z</option>
                 <option value={"sortByNameDown"}>По имени Z-A</option>

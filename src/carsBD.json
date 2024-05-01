@@ -3,6 +3,8 @@
       {
         "id": 1,
         "category": "sedan",
+        "brand": "BMW",
+        "model": "M5",
         "name": "BMW M5 Competition",
         "url": "https://m.media-amazon.com/images/I/81akWzDloaL.jpg",
         "alt": "carImage",
@@ -21,26 +23,9 @@
       },
       {
         "id": 2,
-        "category": "sedan",
-        "name": "Mersedes-Benz CLA",
-        "url": "https://www.hdcarwallpapers.com/walls/2014_mercedes_benz_cla45_amg-HD.jpg",
-        "alt": "carImage",
-        "promo": true,
-        "description": "Mercedes-Benz CLA — современный символ стиля и инноваций. Элегантные линии, динамичный дизайн и высокотехнологичные характеристики делают его идеальным выбором для городского стиля жизни.",
-        "year": 2018,
-        "mileage": 1000,
-        "hp": 221,
-        "price": 2750000,
-        "descriptionEngine": "Двигатель Mercedes-Benz CLA оборудован мощным 2.0-литровым турбированным четырехцилиндровым двигателем, развивающим 221 л.с. и обеспечивающим плавное ускорение и динамичные характеристики.",
-        "urlEngine": "https://di-uploads-pod3.dealerinspire.com/vindeversautohausofsylvania/uploads/2018/09/2019-MB-CLA-Engine.jpg",
-        "descriptionInterior": "Интерьер Mercedes-Benz CLA поражает изысканностью и комфортом. Кожаные сиденья, подогрев и массаж, мультимедийная система MBUX, цифровая приборная панель и атмосферное освещение создают уютную атмосферу.",
-        "urlInterior": "https://s.auto.drom.ru/i24229/c/photos/fullsize/mercedes-benz/cla-class/mercedes-benz_cla-class_871259.jpg",
-        "descriptionExterior": "Экстерьер Mercedes-Benz CLA впечатляет стильным дизайном и элегантными линиями. Характерный радиаторный гриль, светодиодные фары, спортивные диски и динамичные формы делают автомобиль неповторимым на дороге.",
-        "urlExterior": "https://imagecdnsa.zigwheels.ae/large/gallery/exterior/26/787/mercedes-benz-cla-class-full-rear-view-919402.jpg"
-      },
-      {
-        "id": 3,
         "category": "crossover",
+        "brand": "Mersedes-Benz",
+        "model": "GLS",
         "name": "Mercedes-Benz Maybach GLS 600",
         "url": "https://car-images.bauersecure.com/wp-images/3474/087-mercedes-gls.jpg",
         "alt": "carImage",
@@ -58,8 +43,31 @@
         "urlExterior": "https://car-images.bauersecure.com/wp-images/3474/088-mercedes-gls.jpg"
       },
       {
+        "id": 3,
+        "category": "sedan",
+        "brand": "Mersedes-Benz",
+        "model": "CLA",
+        "name": "Mersedes-Benz CLA",
+        "url": "https://www.hdcarwallpapers.com/walls/2014_mercedes_benz_cla45_amg-HD.jpg",
+        "alt": "carImage",
+        "promo": true,
+        "description": "Mercedes-Benz CLA — современный символ стиля и инноваций. Элегантные линии, динамичный дизайн и высокотехнологичные характеристики делают его идеальным выбором для городского стиля жизни.",
+        "year": 2018,
+        "mileage": 1000,
+        "hp": 221,
+        "price": 2750000,
+        "descriptionEngine": "Двигатель Mercedes-Benz CLA оборудован мощным 2.0-литровым турбированным четырехцилиндровым двигателем, развивающим 221 л.с. и обеспечивающим плавное ускорение и динамичные характеристики.",
+        "urlEngine": "https://di-uploads-pod3.dealerinspire.com/vindeversautohausofsylvania/uploads/2018/09/2019-MB-CLA-Engine.jpg",
+        "descriptionInterior": "Интерьер Mercedes-Benz CLA поражает изысканностью и комфортом. Кожаные сиденья, подогрев и массаж, мультимедийная система MBUX, цифровая приборная панель и атмосферное освещение создают уютную атмосферу.",
+        "urlInterior": "https://s.auto.drom.ru/i24229/c/photos/fullsize/mercedes-benz/cla-class/mercedes-benz_cla-class_871259.jpg",
+        "descriptionExterior": "Экстерьер Mercedes-Benz CLA впечатляет стильным дизайном и элегантными линиями. Характерный радиаторный гриль, светодиодные фары, спортивные диски и динамичные формы делают автомобиль неповторимым на дороге.",
+        "urlExterior": "https://imagecdnsa.zigwheels.ae/large/gallery/exterior/26/787/mercedes-benz-cla-class-full-rear-view-919402.jpg"
+      },
+      {
         "id": 4,
         "category": "crossover",
+        "brand": "BMW",
+        "model": "X5M",
         "name": "BMW X5M",
         "url": "https://static0.carbuzzimages.com/wordpress/wp-content/uploads/2024/03/633303-24.jpg",
         "alt": "carImage",
@@ -79,6 +87,8 @@
       {
         "id": 5,
         "category": "coupe",
+        "brand": "BMW",
+        "model": "M8",
         "name": "BMW M8",
         "url": "https://w0.peakpx.com/wallpaper/562/21/HD-wallpaper-bmw-m8-gran-coupe-concept-2018-new-4-door-coupe-exterior-front-view-new-green-m8-bmw.jpg",
         "alt": "carImage",
@@ -98,6 +108,8 @@
       {
         "id": 6,
         "category": "coupe",
+        "brand": "Mercedes-Benz",
+        "model": "E",
         "name": "Mercedes-Benz E AMG 53",
         "url": "https://images.drive.ru/i/0/5ecdfffcec05c4795d00001e.jpg",
         "alt": "carImage",
@@ -117,6 +129,8 @@
       {
         "id": 7,
         "category": "cabriolet",
+        "brand": "BMW",
+        "model": "8",
         "name": "BMW 8 серии 840d xDrive",
         "url": "https://www.bmw.ru/content/dam/bmw/common/all-models/8-series/convertible/2022/onepager/bmw-8-series-convertible-onepager-modelbrief-technical-data.jpg",
         "alt": "carImage",
@@ -136,6 +150,8 @@
       {
         "id": 8,
         "category": "cabriolet",
+        "brand": "Mercedes-Benz",
+        "model": "AMG GT",
         "name": "Mercedes-Benz AMG GT Roadster",
         "url": "https://www.driving.co.uk/wp-content/uploads/sites/5/2017/08/1251598_16C820_007.jpg",
         "alt": "carImage",
@@ -151,6 +167,27 @@
         "urlInterior": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2016/09/2018-Mercedes-AMG-GT-C-Roadster-120.jpg",
         "descriptionExterior": "Mercedes-Benz AMG GT Roadster — воплощение спортивного стиля и элегантности. Изысканные линии, динамичные пропорции и выразительный дизайн придают этому автомобилю неповторимый характер.",
         "urlExterior": "https://robbreport.com/wp-content/uploads/2017/10/mercedes-amg-gt-c-roadster.jpg?w=900&h=563&crop=1"
+      },
+      {
+        "id": 9,
+        "category": "sedan",
+        "brand": "BMW",
+        "model": "CLA",
+        "name": "BWM",
+        "url": "https://www.hdcarwallpapers.com/walls/2014_mercedes_benz_cla45_amg-HD.jpg",
+        "alt": "carImage",
+        "promo": false,
+        "description": "Mercedes-Benz CLA — современный символ стиля и инноваций. Элегантные линии, динамичный дизайн и высокотехнологичные характеристики делают его идеальным выбором для городского стиля жизни.",
+        "year": 2020,
+        "mileage": 1000,
+        "hp": 1000,
+        "price": 27500000,
+        "descriptionEngine": "Двигатель Mercedes-Benz CLA оборудован мощным 2.0-литровым турбированным четырехцилиндровым двигателем, развивающим 221 л.с. и обеспечивающим плавное ускорение и динамичные характеристики.",
+        "urlEngine": "https://di-uploads-pod3.dealerinspire.com/vindeversautohausofsylvania/uploads/2018/09/2019-MB-CLA-Engine.jpg",
+        "descriptionInterior": "Интерьер Mercedes-Benz CLA поражает изысканностью и комфортом. Кожаные сиденья, подогрев и массаж, мультимедийная система MBUX, цифровая приборная панель и атмосферное освещение создают уютную атмосферу.",
+        "urlInterior": "https://s.auto.drom.ru/i24229/c/photos/fullsize/mercedes-benz/cla-class/mercedes-benz_cla-class_871259.jpg",
+        "descriptionExterior": "Экстерьер Mercedes-Benz CLA впечатляет стильным дизайном и элегантными линиями. Характерный радиаторный гриль, светодиодные фары, спортивные диски и динамичные формы делают автомобиль неповторимым на дороге.",
+        "urlExterior": "https://imagecdnsa.zigwheels.ae/large/gallery/exterior/26/787/mercedes-benz-cla-class-full-rear-view-919402.jpg"
       }
     ]
 }
