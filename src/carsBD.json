@@ -24,7 +24,7 @@
       {
         "id": 2,
         "category": "crossover",
-        "brand": "Mersedes-Benz",
+        "brand": "Mercedes-Benz",
         "model": "GLS",
         "name": "Mercedes-Benz Maybach GLS 600",
         "url": "https://car-images.bauersecure.com/wp-images/3474/087-mercedes-gls.jpg",
@@ -45,9 +45,9 @@
       {
         "id": 3,
         "category": "sedan",
-        "brand": "Mersedes-Benz",
+        "brand": "Mercedes-Benz",
         "model": "CLA",
-        "name": "Mersedes-Benz CLA",
+        "name": "Mercedes-Benz CLA",
         "url": "https://www.hdcarwallpapers.com/walls/2014_mercedes_benz_cla45_amg-HD.jpg",
         "alt": "carImage",
         "promo": false,
