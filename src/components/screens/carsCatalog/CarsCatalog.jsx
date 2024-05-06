@@ -14,6 +14,7 @@ const CarsCatalog = ({cars}) => {
     const newCars = cars.filter(car => car.category === nameCategory);
     const [allCars, setAllCars] = useState(newCars);
     let searchCars = newCars;
+
     const handleSearchLogic = (e) => {
         e.preventDefault();
         const inputValue = document.getElementById('inputSearch').value;
@@ -27,11 +28,11 @@ const CarsCatalog = ({cars}) => {
     const handleFilterLogic = (e) => {
         e.preventDefault();
         const partInputs = document.querySelectorAll('#filterPartInputsContainer label input');
-        let filtered = [];
+        let filtered = searchCars;
         for (let i = 0; i < partInputs.length - 1; i += 2 ) {
             const nameInput = partInputs[i].name.toLowerCase();
             let maxValue = partInputs[i + 1].value === '' ? 10000000000 : Number(partInputs[i + 1].value);
-            filtered = newCars.filter((car) => {
+            filtered = filtered.filter((car) => {
                 return car[nameInput] >= Number(partInputs[i].value) && car[nameInput] <= maxValue;
             });
         }
@@ -39,7 +40,10 @@ const CarsCatalog = ({cars}) => {
     }
     const handleFiltersAll = (e) => {
         e.preventDefault();
+        console.log('f0  ', handleFilterLogic(e))
+        console.log('s0  ', handleSearchLogic(e))
         setAllCars([...handleFilterLogic(e).map(item2 => handleSearchLogic(e).filter(item1 => item1.id === item2.id)).flat()]);
+        console.log('all  ', allCars);
     }
     const handleSearchReset = (e) => {
         e.preventDefault();
