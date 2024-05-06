@@ -23,10 +23,10 @@ const sortSelect = (cars) => {
             cars.sort((car1, car2) => car1.year > car2.year ? -1 : 1);
             break;
         case "sortByMileageUp":
-            cars.sort((car1, car2) => car1.mileage > car2.mileage ? -1 : 1);
+            cars.sort((car1, car2) => car2.mileage > car1.mileage ? -1 : 1);
             break;
         case "sortByMileageDown":
-            cars.sort((car1, car2) => car2.mileage > car1.mileage ? -1 : 1);
+            cars.sort((car1, car2) => car1.mileage > car2.mileage ? -1 : 1);
             break;
         case "sortByHorsePowewrUp":
             cars.sort((car1, car2) => car2.hp > car1.hp ? -1 : 1);
