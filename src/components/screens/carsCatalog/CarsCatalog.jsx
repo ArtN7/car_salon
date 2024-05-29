@@ -5,6 +5,7 @@ import Sorts from './sorts/Sorts';
 import CarFilters from './carFilters/CarFilters'
 import styles from '../carsCatalog/CarsCatalog.module.css'
 import SearchBar from '../../UI/searchBar/SearchBar';
+import ButtonBack from '../../UI/buttonBack/ButtonBack';
 
 const CarsCatalog = ({cars}) => {
     const nav = useNavigate();
@@ -40,10 +41,7 @@ const CarsCatalog = ({cars}) => {
     }
     const handleFiltersAll = (e) => {
         e.preventDefault();
-        console.log('f0  ', handleFilterLogic(e))
-        console.log('s0  ', handleSearchLogic(e))
         setAllCars([...handleFilterLogic(e).map(item2 => handleSearchLogic(e).filter(item1 => item1.id === item2.id)).flat()]);
-        console.log('all  ', allCars);
     }
     const handleSearchReset = (e) => {
         e.preventDefault();
@@ -79,11 +77,10 @@ const CarsCatalog = ({cars}) => {
             return acc;
         }, [])
     }
-
     const buttonClass = `btn ${styles.button}`;
     return (
             <div id={'carsCatalogContainer'} className={styles.container}>
-                <button className={buttonClass} onClick={() => nav('/car_salon_3kurs')}>Назад</button>
+                <ButtonBack nav={nav} buttonClass={buttonClass}/>
                 <div className={styles.containerSortsFilters}>
                     <Sorts cars={allCars} setAllCars={setAllCars}/>
                     <CarFilters cars={allCars} filterInputs={filterInputs} handleFilter={handleFiltersAll} handleResetFilter={handleResetFilter}/>

@@ -2,6 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import styles from "./CarDetail.module.css"
 import Popup from "../../UI/popup/Popup";
 import { useState } from "react";
+import ButtonBack from "../../UI/buttonBack/ButtonBack";
 
 const CarDetail = ({cars}) => {
     const nav = useNavigate();
@@ -42,7 +43,7 @@ const CarDetail = ({cars}) => {
             const classButtonService = `btn ${styles.serviceButton}`
             return (
                 <div className={styles.container}>
-                    <button className={buttonClass} onClick={()=> nav(-1)}>Назад</button>
+                    <ButtonBack nav={nav} className={buttonClass}/>
                     {isPopupOrderActive ?   
                         <Popup setPopupActive={setPopupOrderActive} isPopupActive={isPopupOrderActive} textParagraph={TEXT_PARAGRAPH_ORDER} usePesronalData={true}/>
                         : ''
@@ -76,7 +77,7 @@ const CarDetail = ({cars}) => {
                             </div>
                         </div>
                         <div className={styles.itemMoreInfo}>
-                        <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlEngine})` }}/>
+                            <div className ={styles.itemMoreImg} style={{ backgroundImage:`url(${arrCars[i].urlEngine})` }}/>
                             <p>{arrCars[i].descriptionEngine}</p>
                         </div>
                         <div className={styles.itemMoreInfo}>

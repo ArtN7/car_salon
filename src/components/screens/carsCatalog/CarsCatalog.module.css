@@ -8,7 +8,7 @@
 .containerSortsFilters {
     display: flex;
     flex-direction: column;
-    margin-left: 2.25em;
+    margin-left: 2.5rem;
     margin-bottom: 1em;
     margin-top: 2.6em;
     width: 9em;
@@ -36,9 +36,7 @@
     width: 35em;
     text-align: center;
 }
-.button {
+.button{
     position: absolute;
-    height: 2em;
-    width: 5em;
-    left: 2.8rem;
+    left: 2.5rem;
 }

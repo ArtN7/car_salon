@@ -1,7 +1,7 @@
 .container {
     width: max-content;
     margin: 0 auto;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 .form {
     display: flex;
@@ -10,10 +10,25 @@
     font-size: 1rem;
     width: 50em;
     padding: 0 15px;
-    margin-right: 1.5em;
+    margin-right: 1em;
 }
 .containerButtons {
-    width: 13em;
+    width: 5rem;
     display: flex;
     justify-content: space-between;
+    align-self: center;
+}
+.button{
+    border: none;
+    background-color: transparent;
+    width: min-content;
+    height: 30px;
+    width: 30px;
+    opacity: 0.7;
+
+}
+.button:hover {
+    color: black;
+    background-color: transparent;
+    opacity: 1;
 }

@@ -1,0 +1,17 @@
+.svgIcon:active{
+    width: 28px;
+}
+.newButtonClass {
+    border: none;
+    background-color: transparent;
+    width: min-content;
+    height: 30px;
+    width: 30px;
+    opacity: 0.7;
+}
+.newButtonClass:hover {
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+    opacity: 1;
+}

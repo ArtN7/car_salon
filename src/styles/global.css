@@ -80,6 +80,11 @@ ul.slick-dots li button:before {
         font-size: 15px;
     }
 }
+@media (max-width: 1300px){
+    html {
+        font-size: 14px;
+    }
+}
 @media (max-width: 1200px){
     html {
         font-size: 12px;
@@ -91,8 +96,24 @@ ul.slick-dots li button:before {
     }
 }
 
-@media (max-width: 900px){
+@media (max-width: 870px){
     html {
         font-size: 9.5px;
+    }
+}
+
+@media (max-width: 830px){
+    html {
+        font-size: 8.5px;
+    }
+}
+@media (max-width: 730px){
+    html {
+        font-size: 7.5px;
+    }
+}
+@media (max-width: 700px){
+    html {
+        font-size: 7px;
     }
 }
