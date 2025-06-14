@@ -11,10 +11,23 @@ const CarsCatalog = ({cars}) => {
     const nav = useNavigate();
     const location = useLocation();
     const nameCategory = location.pathname.split('/').at(-1);
-    cars = Object.values(cars)[0]; //this str will be delete when i create json server
+
+    const buttonClass = `btn ${styles.button}`;
+
     const newCars = cars.filter(car => car.category === nameCategory);
     const [allCars, setAllCars] = useState(newCars);
     let searchCars = newCars;
+
+    if (newCars.length === 0) {
+        return (
+        <div id={'carsCatalogContainer'} className={styles.container}>
+            <ButtonBack nav={nav} buttonClass={buttonClass}/>
+            <div className={styles.containerSearchCars}>
+                <h2 className={styles.notFoundCars}>К сожалению, автомобили не найдены</h2>
+            </div>
+        </div>
+        )
+    };
 
     const handleSearchLogic = (e) => {
         e.preventDefault();
@@ -62,7 +75,6 @@ const CarsCatalog = ({cars}) => {
         }
     }
 
-
     const filterInputs = (filter_attributes) => {
         return filter_attributes.reduce((acc, currentValue, index) => {
             const name = currentValue.name.toLowerCase();
@@ -77,7 +89,7 @@ const CarsCatalog = ({cars}) => {
             return acc;
         }, [])
     }
-    const buttonClass = `btn ${styles.button}`;
+    
     return (
             <div id={'carsCatalogContainer'} className={styles.container}>
                 <ButtonBack nav={nav} buttonClass={buttonClass}/>

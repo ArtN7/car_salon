@@ -38,7 +38,7 @@
     width: 15.1875rem;
     margin: 0 auto;
 }
-.miniCharacters span{
+.nameMiniCharacter{
     width: 6.5rem;
 }
 
@@ -107,13 +107,16 @@
         font-size: 2rem;
     }
     .miniCharacters {
-        width: 35rem;
+        justify-content: space-between;
+        width: 30rem;
     }
-    .miniCharacters span {
+    .nameMiniCharacter {
         width: 12rem;
     }
     .serviceButton {
         font-size: 2rem;
+        padding: 1rem 0.5rem;
+        width: max-content;
     }
     .itemMoreInfo {
         font-size: 2rem;
@@ -149,4 +152,5 @@
         width: 50rem;
         height: 40rem;
     }
+
 }

@@ -15,7 +15,7 @@ const CarInfoItem = ({category = '', car = ''}) => {
                         <img src={require('../images/firePromo.png')} width={'35px'} alt='promoFire'/>
                     </span>
                     <span className={styles.promoName}>{car.name}</span>
-                    <button className = {buttonClass} onClick={() => nav(`/car_salon_3kurs/catalog/${car.category}/car/${car.id}`)}>Перейти &#x2192;</button>
+                    <button className = {buttonClass} onClick={() => nav(`/car_salon/catalog/${car.category}/car/${car.id}`)}>Перейти &#x2192;</button>
                 </div>
             </div>
         )
@@ -25,7 +25,7 @@ const CarInfoItem = ({category = '', car = ''}) => {
                 <img className={styles.categoryImage} src={require(`../images/category/${category.name}.png`)} alt = 'promoCar'/>
                 <div className={styles.info}>
                     <span className={styles.name}>{category.ruName}</span>
-                    <button className = {buttonClass} onClick={() => nav(`/car_salon_3kurs/catalog/${category.name}`)}>Перейти &#x2192;</button>
+                    <button className = {buttonClass} onClick={() => nav(`/car_salon/catalog/${category.name}`)}>Перейти &#x2192;</button>
                 </div>
             </div>
         )

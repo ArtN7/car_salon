@@ -1,7 +1,8 @@
 import styles from '../carItem/CarItem.module.css'
 import ButtonsCarItem from './ButtonsCarItem';
+import ButtonsCarItemAdmin from './ButtonsCarItemAdmin';
 
-const CarItem = ({car}) => {
+const CarItem = ({car, admin = false}) => {
     const price = new Intl.NumberFormat("ru-RU", {
         style: 'currency', currency: 'RUB',
     }).format(car.price);
@@ -23,7 +24,10 @@ const CarItem = ({car}) => {
                 <li className={styles.hp}>Лошадиные силы: {hp}</li>
             </ul>
             <p className={styles.price}>Цена: {price}</p>
-            <ButtonsCarItem carId={car.id}/>
+            {
+                admin ? <ButtonsCarItemAdmin carId={car.id} category={car.category}/> : <ButtonsCarItem carId={car.id} carName = {car.name}/>
+            }
+            
         </div>
     )
 }

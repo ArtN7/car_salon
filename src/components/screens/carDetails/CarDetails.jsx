@@ -7,7 +7,7 @@ import ButtonBack from "../../UI/buttonBack/ButtonBack";
 const CarDetail = ({cars}) => {
     const nav = useNavigate();
     const { id } = useParams();
-    const arrCars = Object.values(cars)[0];
+    const arrCars = cars;
     const buttonClass = `btn ${styles.button}`
     const [isPopupOrderActive, setPopupOrderActive] = useState(false);
     const [isPopupTestDriveActive, setPopupTestDriveActive] = useState(false);
@@ -45,11 +45,11 @@ const CarDetail = ({cars}) => {
                 <div className={styles.container}>
                     <ButtonBack nav={nav} className={buttonClass}/>
                     {isPopupOrderActive ?   
-                        <Popup setPopupActive={setPopupOrderActive} isPopupActive={isPopupOrderActive} textParagraph={TEXT_PARAGRAPH_ORDER} usePesronalData={true}/>
+                        <Popup carName = {arrCars[i].name} setPopupActive={setPopupOrderActive} isPopupActive={isPopupOrderActive} textParagraph={TEXT_PARAGRAPH_ORDER} usePesronalData={true}/>
                         : ''
                     }
                     {isPopupTestDriveActive ?   
-                        <Popup setPopupActive={setPopupTestDriveActive} isPopupActive={isPopupTestDriveActive} textParagraph={TEXT_PARAGRAPH_TEST} usePesronalData={true}/>
+                        <Popup carName = {arrCars[i].name} setPopupActive={setPopupTestDriveActive} isPopupActive={isPopupTestDriveActive} textParagraph={TEXT_PARAGRAPH_TEST} usePesronalData={true}/>
                         : ''
                     }
                     <div className={styles.containerInfo}>
@@ -59,10 +59,12 @@ const CarDetail = ({cars}) => {
                         </div>
                         <div className={styles.miniInfo}>
                             <h2>{arrCars[i].name}</h2>    
-                            <p className={styles.miniCharacters}><span>Цена: </span>{price}</p>
-                            <p className={styles.miniCharacters}><span>Пробег: </span>{mileage}</p>
-                            <p className={styles.miniCharacters}><span>Мощность: </span>{hp}</p>
-                            <p className={styles.miniCharacters}><span>Кузов: </span>{categoryName}</p>
+                            <p className={styles.miniCharacters}>
+                                <span className={styles.nameMiniCharacter}>Цена: </span>{price}
+                            </p>
+                            <p className={styles.miniCharacters}><span className={styles.nameMiniCharacter}>Пробег: </span>{mileage}</p>
+                            <p className={styles.miniCharacters}><span className={styles.nameMiniCharacter}>Мощность: </span>{hp}</p>
+                            <p className={styles.miniCharacters}><span className={styles.nameMiniCharacter}>Кузов: </span>{categoryName}</p>
                             <div className={styles.serviceButtonsContainer}>
                                 <button className={classButtonService} onClick={() => {
                                         setPopupOrderActive(!isPopupOrderActive);

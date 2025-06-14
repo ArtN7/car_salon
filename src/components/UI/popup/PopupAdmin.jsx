@@ -1,10 +1,15 @@
-import FormToOrder from '../formToOrder/FormToOrder';
 import FormToOrderAdmin from '../formToOrder/FormToOrderAdmin';
 import styles from './Popup.module.css'
 
-const Popup = ({carId, setPopupActive, isPopupActive, textParagraph, usePesronalData, formId, carName, admin = false, action = ""}) => {
+const PopupAdmin = ({cars, setPopupActive, isPopupActive, textParagraph, formId, carName = "", action = "", carId = ""}) => {
+
+    let popupStyle = styles.popup;
+    if (action === "add" || action === "update") {
+        popupStyle = styles.popupAdd;
+    }
+    console.log(cars);
     return (
-        <div className={styles.popup}>
+        <div className={popupStyle}>
             <button className={styles.closeButton} onClick={() => setPopupActive(!isPopupActive)}>
                 <svg width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path fillRule="evenodd" clipRule="evenodd" d="M16.9498 8.46447C17.3404 8.07394 17.3404 7.44078 16.9498 
@@ -16,11 +21,11 @@ const Popup = ({carId, setPopupActive, isPopupActive, textParagraph, usePesronal
                 </svg>
             </button>
             <p className={styles.leaveDataParagraph}>{textParagraph}</p>   
-            { 
-            admin ? <FormToOrderAdmin carId = {carId} carName = {carName} formId={formId} formStyle={styles.form} action={action}/> : <FormToOrder carName = {carName} formId={formId} formStyle={styles.form} usePesronalData={usePesronalData} textParagraph = {textParagraph}/>
-            }
+            
+            <FormToOrderAdmin carName = {carName} formId={formId} formStyle={styles.form} action={action} carId = {carId} cars={cars}/>
+            
         </div> 
     )
         
 }
-export default Popup;
+export default PopupAdmin;

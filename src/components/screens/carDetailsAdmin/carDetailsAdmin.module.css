@@ -1,0 +1,95 @@
+.form {
+    min-height: 30em;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.containerLables {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.containerSendButton {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    margin: auto;
+}
+
+.containerBlocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: inherit;
+    margin: 10px 0;
+}
+
+.containerBlocks:first-child {
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.fieldName {
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.errorMessage {
+    color: red;
+    margin-left: 10px;
+}
+
+.middleInput {
+    width: 400px;
+}
+
+.bigInput {
+    width: 700px;
+    height: 50px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5.5px;
+}
+
+.longInput {
+    width: 700px;
+}
+
+label span {
+    width: 200px;
+    text-align: start;
+}
+
+.fieldNameMini {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    width: max-content;
+}
+
+.select {
+    width: 9em;
+    height: 2em;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 0.25em;
+    border-radius: 0.25em;
+}
+
+textarea.bigInput{
+    font-size: 16px;
+    height: 60px;
+    padding: 2px;
+}
+
+input {
+    padding: 0 5px;
+}

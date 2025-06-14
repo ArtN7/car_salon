@@ -1,10 +1,10 @@
 .popup {
     position: fixed;
     font-size: 1.2rem;
-    top: 50%; 
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40.4em;
+    width: 48.5rem;
     min-height: 20.2em;
     padding: 0.25em 0;
     background-color: white;
@@ -16,7 +16,27 @@
     color: black;
     z-index: 3;
 }
-.form{
+
+.popupAdd {
+    position: fixed;
+    font-size: 1.2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 78.5rem;
+    min-height: 35.2em;
+    padding: 0.25em 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.78em;
+    color: black;
+    z-index: 3;
+}
+
+.form {
     height: inherit;
     padding: 0.56em 0;
     margin: auto 0;
@@ -25,7 +45,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.form label{
+
+.form label {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -33,15 +54,18 @@
     margin-bottom: 1.1em;
 
 }
-.form input{
+
+.form input {
     padding-left: 0.95em;
     border-radius: 0.4em;
     width: 18rem;
     margin: 0 auto;
 }
+
 .leaveDataParagraph {
     margin-top: 0.28em;
 }
+
 .closeButton {
     position: absolute;
     right: 0.56em;
@@ -49,6 +73,20 @@
     border: none;
     background-color: transparent;
 }
+
 .closeButton:hover {
     cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .popup {
+        text-align: center;
+        font-size: 1.9rem;
+        height: 65rem;
+    }
+
+    .leaveDataParagraph {
+        width: 35rem;
+        margin-bottom: 3rem;
+    }
 }

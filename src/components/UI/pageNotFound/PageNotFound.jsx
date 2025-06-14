@@ -2,7 +2,7 @@ const PageNotFound = () => {
     return (
         <div>
             <h1>404 Not Found. Noooooooooo</h1>
-            <p>I'm sorry, I haven't data to add it</p>
+            <p>Извините, такой страницы не существует</p>
             <iframe width="1080" height="608" src="https://www.youtube.com/embed/KhMn_C_uzaU" title="МЕМ ПЛАЧУЩИЙ МАЛЬЧИК😂" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         </div>

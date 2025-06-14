@@ -9,6 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Car Salon</title>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js";
+      const firebaseConfig = {
+        apiKey: "AIzaSyD02uzTqfUQnxDf8VGOR1XZuuBBcWbOK_0",
+        authDomain: "carsalon4.firebaseapp.com",
+        projectId: "carsalon4",
+        storageBucket: "carsalon4.firebasestorage.app",
+        messagingSenderId: "865082731574",
+        appId: "1:865082731574:web:089d2b9051273d5f417c97"
+      };
+    
+      const app = initializeApp(firebaseConfig);
+      const db = app.firestore()
+    </script>
   </head>
   <body>
     <div id="root"></div>

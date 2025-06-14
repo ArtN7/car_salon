@@ -10,7 +10,7 @@ const CarPromotion = () => {
                 <p className={styles.description}>При онлайн оформлении заявки на покупку автомобиля комплект зимней резины в подарок</p>
             </div>
             <p className={styles.personalData}>Оставляя заявку, вы соглашаетесь на обработку персональных данных</p>
-            <FormToOrder pesronalData={false} formId={'promotion'} formStyle={styles.form}/>
+            <FormToOrder carName="Акция" pesronalData={false} formId={'promotion'} formStyle={styles.form}/>
         </div>
     )
 }

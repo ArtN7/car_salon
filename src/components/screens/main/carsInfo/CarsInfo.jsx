@@ -21,7 +21,7 @@ const CAR_CATEGORIES = [
 ];
 
 const CarsInfo = ({cars}) => {
-    cars = Object.values(cars)[0]; //this str will be delete when i create json serve
+
     const PROMOTION_CARS = cars.filter(car => car?.promo === true);
 
     return(

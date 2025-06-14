@@ -3,7 +3,7 @@ import '../../../../styles/global.css'
 import { useNavigate } from 'react-router-dom'
 import { useState } from 'react';
 import Popup from '../../../UI/popup/Popup';
-const ButtonsCarItem = ({carId}) => {
+const ButtonsCarItem = ({carId, carName}) => {
     const nav = useNavigate();
     const root = document.getElementById('root');
     const [isPopupActive1, setPopupActive1] = useState(false);
@@ -12,7 +12,6 @@ const ButtonsCarItem = ({carId}) => {
 
     const TEXT_PARAGRAPH_ORDER = 'Введите данные для покупки автомобиля, и мы с вами свяжемся';
     const TEXT_PARAGRAPH_TEST = 'Запишитесь на тест-драйв прямо сейчас!';
-
     return (
         <div className={styles.buttons}>
             <button className='btn' onClick={() => {
@@ -22,7 +21,7 @@ const ButtonsCarItem = ({carId}) => {
                 Оформить
             </button>
             {isPopupActive1 ?   
-                <Popup setPopupActive={setPopupActive1} isPopupActive={isPopupActive1} textParagraph={TEXT_PARAGRAPH_ORDER} formId={'formOrderCarItem'} usePesronalData={true}/>
+                <Popup carName = {carName} setPopupActive={setPopupActive1} isPopupActive={isPopupActive1} textParagraph={TEXT_PARAGRAPH_ORDER} formId={'formOrderCarItem'} usePesronalData={true}/>
                 : ''
             }
             <button className='btn' onClick={() => {
@@ -32,7 +31,7 @@ const ButtonsCarItem = ({carId}) => {
                 Тест-драйв
             </button>
             {isPopupActive2 ?   
-                <Popup setPopupActive={setPopupActive2} isPopupActive={isPopupActive2} textParagraph={TEXT_PARAGRAPH_TEST} formId={'formTestDriveCarItem'} usePesronalData={true}/>
+                <Popup carName = {carName} setPopupActive={setPopupActive2} isPopupActive={isPopupActive2} textParagraph={TEXT_PARAGRAPH_TEST} formId={'formTestDriveCarItem'} usePesronalData={true}/>
                 : ''
             }
             <button className='btn' onClick={() => nav(`car/${carId}`, { replace: false })}>Подробнее</button>
